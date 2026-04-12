@@ -1,0 +1,20 @@
+{
+  "name": "render-supabase-dashboard",
+  "version": "1.0.0",
+  "description": "Election dashboard configured for Render + Supabase Postgres",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "import:mssql": "node scripts/import-from-mssql.js",
+    "check:db": "node scripts/check-supabase.js",
+    "export:csv": "node scripts/export-from-mssql-to-csv.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mssql": "^11.0.1",
+    "pg": "^8.13.1"
+  }
+}

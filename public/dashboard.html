@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive constituency-wise election results dashboard">
+    <title>State Election Results Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header id="main-header">
+        <div class="header-content">
+            <div class="header-left">
+                <a class="back-link" href="/">All States</a>
+                <div class="logo-icon">🗳️</div>
+                <div class="header-text">
+                    <h1 id="page-title">Election Results</h1>
+                    <p class="subtitle" id="page-subtitle">General Election to Assembly Constituencies</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="live-badge" id="live-badge">
+                    <span class="live-dot"></span>
+                    DECLARED
+                </div>
+                <button id="refresh-data-btn" class="refresh-button" type="button">Refresh Data</button>
+                <div class="refresh-status" id="refresh-status">Auto refresh: every 20s</div>
+                <div class="last-updated" id="last-updated">Last Updated: --</div>
+            </div>
+        </div>
+    </header>
+
+    <section id="party-summary" class="section">
+        <div class="container">
+            <div class="party-cards" id="party-cards"></div>
+            <div class="seats-bar-container">
+                <div class="seats-bar" id="seats-bar"></div>
+                <div class="seats-labels">
+                    <span>0</span>
+                    <span class="total-seats-label" id="total-seats-label">Total: 0 Seats</span>
+                    <span id="total-seats-max">0</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dashboard" class="section">
+        <div class="container dashboard-grid">
+            <div class="panel party-table-panel">
+                <div class="panel-header">
+                    <h2>Party Wise Results</h2>
+                </div>
+                <div class="panel-body">
+                    <table id="party-table">
+                        <thead>
+                            <tr>
+                                <th>Party</th>
+                                <th>Won</th>
+                                <th>Vote Share</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="party-table-body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="panel map-panel">
+                <div class="panel-header">
+                    <h2 id="map-panel-title">Constituency Map</h2>
+                    <div class="map-header-controls">
+                        <select id="constituency-select" class="constituency-dropdown">
+                            <option value="">Select Constituency...</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="panel-body map-container">
+                    <div class="map-toolbar">
+                        <div class="map-toolbar-group">
+                            <button id="map-zoom-out" class="map-tool-button" type="button">-</button>
+                            <button id="map-zoom-in" class="map-tool-button" type="button">+</button>
+                            <button id="map-zoom-reset" class="map-tool-button map-tool-button-wide" type="button">Reset</button>
+                        </div>
+                        <div class="map-zoom-status" id="map-zoom-status">Zoom 100%</div>
+                    </div>
+                    <div class="map-scroll-shell" id="map-scroll-shell">
+                        <div class="map-stage" id="map-stage">
+                            <div id="map-svg-container"></div>
+                        </div>
+                    </div>
+                    <div id="map-tooltip" class="map-tooltip"></div>
+                    <div class="map-legend" id="map-legend"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="charts-section" class="section">
+        <div class="container charts-grid">
+            <div class="panel chart-panel">
+                <div class="panel-header">
+                    <h2>Party Wise Results</h2>
+                </div>
+                <div class="panel-body chart-body">
+                    <div id="seats-donut"></div>
+                </div>
+            </div>
+            <div class="panel chart-panel">
+                <div class="panel-header">
+                    <h2>Party Wise Vote Share</h2>
+                </div>
+                <div class="panel-body chart-body">
+                    <div id="votes-donut"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="results-section" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="results-title">Constituency Wise Results</h2>
+            </div>
+            <div class="results-grid" id="results-grid"></div>
+        </div>
+    </section>
+
+    <footer id="main-footer">
+        <div class="container footer-content">
+            <p id="footer-title">Election Results Dashboard</p>
+            <p class="footer-note">Map boundaries should be cross-verified with official ECI delimitation records.</p>
+        </div>
+    </footer>
+
+    <script src="/js/state-config.js"></script>
+    <script src="/js/charts.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

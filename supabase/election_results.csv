@@ -1,0 +1,653 @@
+id,constituency_no,constituency_name,district_name,candidate_name,party_code,party_name,votes_received,total_votes,vote_percentage,margin,status,state_code,state_name
+1,34,Abhayapuri North,Bongaigaon,Abdul Batin Khandakar,INC,Indian National Congress,158192,158192,94.2,32781,Won,18,Assam
+2,35,Abhayapuri South,Bongaigaon,Pradip Sarkar,INC,Indian National Congress,183417,183417,94.4,47085,Won,18,Assam
+3,8,Algapur,Hailakandi,Nijam Uddin Choudhury,AIUDF,All India United Democratic Front,134584,134584,88.3,17604,Won,18,Assam
+4,103,Amguri,Sibsagar,Prodip Hazarika,AGP,Asom Gana Parisad,102571,102571,85,6179,Won,18,Assam
+5,5,Badarpur,Karimganj,Abdul Aziz,AIUDF,All India United Democratic Front,129786,129786,84.1,23948,Won,18,Assam
+6,45,Baghbar,Barpeta,Sherman Ali Ahmed,INC,Indian National Congress,150536,150536,97.1,13942,Won,18,Assam
+7,20,Baithalangso,Karbi Anglong,Rupsing Teron,BJP,Bharatiya Janta Party,161030,161030,80.3,53437,Won,18,Assam
+8,62,Barama,Nalbari,Bhupen Baro,UPPL,United Peoples Party Liberal,131255,131255,80.9,23772,Won,18,Assam
+9,87,Barhampur,Nagaon,Jitu Goswami,BJP,Bharatiya Janta Party,142666,142666,81.8,751,Won,18,Assam
+10,60,Barkhetri,Nalbari,Diganta Barman,INC,Indian National Congress,172578,172578,93.5,4054,Won,18,Assam
+11,14,Barkhola,Cachar,Misbahul Islam Laskar,INC,Indian National Congress,123349,123349,86.3,7031,Won,18,Assam
+12,43,Barpeta,Barpeta,Abdur Rahim Ahmed,INC,Indian National Congress,180265,180265,91.4,44719,Won,18,Assam
+13,84,Batadroba,Nagaon,Sibamoni Bora,INC,Indian National Congress,139348,139348,90.4,32820,Won,18,Assam
+14,41,Bhabanipur,Barpeta,Phanidhar Talukdar,AIUDF,All India United Democratic Front,124566,124566,88.5,3227,Won,18,Assam
+15,77,Behali,Sonitpur,Ranjit Dutta,BJP,Bharatiya Janta Party,102201,102201,85.1,29839,Won,18,Assam
+16,109,Bihpuria,Lakhimpur,Dr. Amiya Kumar Bhuyan,BJP,Bharatiya Janta Party,120712,120712,82.7,10178,Won,18,Assam
+17,33,Bijni,Bongaigaon,Ajoy Kumar Ray,BJP,Bharatiya Janta Party,138527,138527,91.1,1003,Won,18,Assam
+18,27,Bilasipara East,Dhubri,Samsul Huda,AIUDF,All India United Democratic Front,194036,194036,93,49300,Won,18,Assam
+19,26,Bilasipara West,Dhubri,Hafiz Bashir Ahmed,AIUDF,All India United Democratic Front,159886,159886,96.8,59758,Won,18,Assam
+20,76,Biswanath,Sonitpur,Promod Borthakur,BJP,Bharatiya Janta Party,138379,138379,87.9,9210,Won,18,Assam
+21,17,Bokajan,Karbi Anglong,Numal Momin,BJP,Bharatiya Janta Party,117361,117361,83.1,17885,Won,18,Assam
+22,93,Bokakhat,Golaghat,Atul Bora,AGP,Asom Gana Parisad,117945,117945,83.5,45181,Won,18,Assam
+23,48,Boko,Kamrup,Nandita Das,INC,Indian National Congress,201331,201331,92.9,52466,Won,18,Assam
+24,32,Bongaigaon,Bongaigaon,Phani Bhusan Choudhury,AGP,Asom Gana Parisad,151451,151451,87.2,38167,Won,18,Assam
+25,72,Barchalla,Sonitpur,Ganesh Kumar Limbu,BJP,Bharatiya Janta Party,135172,135172,83.3,17782,Won,18,Assam
+26,121,Chabua,Dibrugarh,Ponakan Baruah,AGP,Asom Gana Parisad,126021,126021,83.8,18730,Won,18,Assam
+27,63,Chapaguri,Nalbari,Urkhao Gwra Brahma,UPPL,United Peoples Party Liberal,125339,125339,81.2,26739,Won,18,Assam
+28,49,Chaygaon,Kamrup,Rekibuddin Ahmed,INC,Indian National Congress,165162,165162,93.1,28044,Won,18,Assam
+29,47,Chenga,Barpeta,Ashraful Hussain,AIUDF,All India United Democratic Front,127311,127311,94.3,51939,Won,18,Assam
+30,68,Dalgaon,Darrang,Mazibur Rahman,AIUDF,All India United Democratic Front,212683,212683,94.9,55383,Won,18,Assam
+31,97,Dergaon,Jorhat,Bhabendra Nath Bharali,AGP,Asom Gana Parisad,130661,130661,80.7,12497,Won,18,Assam
+32,112,Dhakuakhana,Lakhimpur,Naba Kumar Doley,BJP,Bharatiya Janta Party,168690,168690,85.7,9596,Won,18,Assam
+33,61,Dharmapur,Nalbari,Chandra Mohan Patowary,BJP,Bharatiya Janta Party,119407,119407,85.9,25034,Won,18,Assam
+34,71,Dhekiajuli,Sonitpur,Ashok Singhal,BJP,Bharatiya Janta Party,162251,162251,79.5,35070,Won,18,Assam
+35,113,Dhemaji,Dhemaji,Ranoj Pegu,BJP,Bharatiya Janta Party,191769,191769,80.4,30792,Won,18,Assam
+36,83,Dhing,Nagaon,Aminul Islam,AIUDF,All India United Democratic Front,205424,205424,95.7,102967,Won,18,Assam
+37,11,Dholai,Cachar,Parimal Sukla Baidya,BJP,Bharatiya Janta Party,148490,148490,84.4,20392,Won,18,Assam
+38,23,Dhubri,Dhubri,Nazrul Hoque,AIUDF,All India United Democratic Front,174940,174940,92.9,77813,Won,18,Assam
+39,116,Dibrugarh,Dibrugarh,Prasanta Phukan,BJP,Bharatiya Janta Party,111937,111937,79.7,38005,Won,18,Assam
+40,123,Digboi,Tinsukia,Suren  Phukan,BJP,Bharatiya Janta Party,104459,104459,77.5,26976,Won,18,Assam
+41,19,Diphu,Karbi Anglong,Bidya Sing Engleng,BJP,Bharatiya Janta Party,149974,149974,79,40528,Won,18,Assam
+42,52,Dispur,Kamrup Metropolitan,Atul Bora,BJP,Bharatiya Janta Party,300536,300536,77.9,121657,Won,18,Assam
+43,125,Doom Dooma,Tinsukia,Rupesh Gowala,BJP,Bharatiya Janta Party,114573,114573,78.9,8138,Won,18,Assam
+44,36,Dudhnai,Goalpara,Jadab Swargiary,INC,Indian National Congress,179388,179388,91.3,1276,Won,18,Assam
+45,118,Duliajan,Dibrugarh,Terash Gowala,BJP,Bharatiya Janta Party,127124,127124,85,8110,Won,18,Assam
+46,78,Gohpur,Sonitpur,Sri Utpal Borah,BJP,Bharatiya Janta Party,161410,161410,84.4,29294,Won,18,Assam
+47,53,Gauhati East,Kamrup Metropolitan,Siddhartha Bhattacharya,BJP,Bharatiya Janta Party,167643,167643,73.6,84100,Won,18,Assam
+48,54,Gauhati West,Kamrup Metropolitan,Ramendra Narayan Kalita,AGP,Asom Gana Parisad,225789,225789,81.1,78449,Won,18,Assam
+49,24,Gauripur,Dhubri,Nizanur Rahman,AIUDF,All India United Democratic Front,181969,181969,92.5,48845,Won,18,Assam
+50,37,Goalpara East,Goalpara,Abul Kalam Rasheed Alam,INC,Indian National Congress,193768,193768,94.7,45248,Won,18,Assam
+51,38,Goalpara West,Goalpara,Abdur Rashid Mandal,INC,Indian National Congress,156979,156979,96.8,46024,Won,18,Assam
+52,95,Golaghat,Golaghat,Ajanta Neog,BJP,Bharatiya Janta Party,159039,159039,82.1,9325,Won,18,Assam
+53,25,Golakganj,Dhubri,Abdus Sobahan Ali Sarkar,INC,Indian National Congress,182369,182369,94.9,10699,Won,18,Assam
+54,28,Gossaigaon,Kokrajhar,Majendra Narzary,BPF,Bodoland Peoples Front,153995,153995,84.2,10343,Won,18,Assam
+55,6,Hailakandi,Hailakandi,Zakir Hussain Laskar,AIUDF,All India United Democratic Front,127773,127773,81.1,23754,Won,18,Assam
+56,55,Hajo,Kamrup,Sri Suman Haripriya,BJP,Bharatiya Janta Party,150565,150565,88.6,14368,Won,18,Assam
+57,16,Haflong,Dima Hasao,Nandita Gorlosa,BJP,Bharatiya Janta Party,118545,118545,86.2,18598,Won,18,Assam
+58,91,Hojai,Nagaon,Ramkrishna Ghosh,BJP,Bharatiya Janta Party,220372,220372,89.6,33782,Won,18,Assam
+59,18,Howraghat,Karbi Anglong,Darsing Ronghang,BJP,Bharatiya Janta Party,102567,102567,80.9,31683,Won,18,Assam
+60,79,Jagiroad,Marigaon,Pijush Hazarika,BJP,Bharatiya Janta Party,197600,197600,88.5,29404,Won,18,Assam
+61,39,Jaleswar,Goalpara,Aftab Uddin Mollah,INC,Indian National Congress,148833,148833,99.3,21980,Won,18,Assam
+62,51,Jalukbari,Kamrup Metropolitan,Himanta Biswa Sarma,BJP,Bharatiya Janta Party,166810,166810,85.6,101911,Won,18,Assam
+63,90,Jamunamukh,Nagaon,Siraj Uddin Ajmal,AIUDF,All India United Democratic Front,185607,185607,92.1,118560,Won,18,Assam
+64,44,Jania,Barpeta,Rafiqul Islam,AIUDF,All India United Democratic Front,183725,183725,97.6,144775,Won,18,Assam
+65,114,Jonai,Dhemaji,Bhuban Pegu,BJP,Bharatiya Janta Party,242482,242482,84.8,110987,Won,18,Assam
+66,98,Jorhat,Jorhat,Hitendra Nath Goswami,BJP,Bharatiya Janta Party,138179,138179,78.1,6488,Won,18,Assam
+67,65,Kalaigaon,Darrang,Durga Das Boro,BPF,Bodoland Peoples Front,146814,146814,83.8,7102,Won,18,Assam
+68,89,Kaliabor,Nagaon,Keshab Mahanta,AGP,Asom Gana Parisad,122937,122937,89,28720,Won,18,Assam
+69,56,Kamalpur,Kamrup,Diganta Kalita,BJP,Bharatiya Janta Party,148731,148731,84.6,18114,Won,18,Assam
+70,3,Karimganj North,Karimganj,Kamalakhya Dey Purkayastha,INC,Indian National Congress,145565,145565,76.8,8324,Won,18,Assam
+71,4,Karimganj South,Karimganj,Siddeque Ahmed,INC,Indian National Congress,149295,149295,83.7,32487,Won,18,Assam
+72,15,Katigora,Cachar,Khalil Uddin Mazumder,INC,Indian National Congress,161465,161465,92.6,6939,Won,18,Assam
+73,7,Katlicherra,Hailakandi,Suzam Uddin Laskar,AIUDF,All India United Democratic Front,153146,153146,88.2,12971,Won,18,Assam
+74,96,Khumtai,Golaghat,Mrinal Saikia,BJP,Bharatiya Janta Party,114834,114834,86.6,27133,Won,18,Assam
+75,30,Kokrajhar East,Kokrajhar,Lawrence Islary,UPPL,United Peoples Party Liberal,152372,152372,83.8,20095,Won,18,Assam
+76,29,Kokrajhar West,Kokrajhar,Rabiram Narzary,BPF,Bodoland Peoples Front,154387,154387,87,12071,Won,18,Assam
+77,81,Laharighat,Marigaon,Dr. Asif Mohammad Nazar,INC,Indian National Congress,162296,162296,90.2,2028,Won,18,Assam
+78,117,Lahowal,Dibrugarh,Binod Hazarika,BJP,Bharatiya Janta Party,120232,120232,85.8,17248,Won,18,Assam
+79,111,Lakhimpur,Lakhimpur,Manab Deka,BJP,Bharatiya Janta Party,155184,155184,86.3,3036,Won,18,Assam
+80,13,Lakhipur,Cachar,Kaushik Rai,BJP,Bharatiya Janta Party,122510,122510,78.3,12700,Won,18,Assam
+81,92,Lumding,Nagaon,Sibu Misra,BJP,Bharatiya Janta Party,173094,173094,86.6,11731,Won,18,Assam
+82,105,Mahmara,Sibsagar,Jogen Mohan,BJP,Bharatiya Janta Party,112157,112157,86,13135,Won,18,Assam
+83,99,Majuli,Jorhat,Sarbananda Sonowal,BJP,Bharatiya Janta Party,104707,104707,82.7,43192,Won,18,Assam
+84,67,Mangaldoi,Darrang,Basanta Das,INC,Indian National Congress,202144,202144,90.5,24354,Won,18,Assam
+85,21,Mankachar,Dhubri,Md. Aminul Islam,AIUDF,All India United Democratic Front,206373,206373,97.4,56840,Won,18,Assam
+86,124,Margherita,Tinsukia,Bhaskar Sharma,BJP,Bharatiya Janta Party,150743,150743,81.8,58500,Won,18,Assam
+87,70,Majbat,Udalguri,Charan Boro,BPF,Bodoland Peoples Front,126771,126771,86.8,16057,Won,18,Assam
+88,115,Moran,Dibrugarh,Chakradhar Gogoi,BJP,Bharatiya Janta Party,110011,110011,82.4,22341,Won,18,Assam
+89,101,Mariani,Jorhat,Rupjyoti Kurmi,INC,Indian National Congress,93782,93782,82.3,2446,Won,18,Assam
+90,80,Marigaon,Marigaon,Rama Kanta Dewri,BJP,Bharatiya Janta Party,155011,155011,83.9,36532,Won,18,Assam
+91,120,Naharkatia,Dibrugarh,Taranga Gogoi,BJP,Bharatiya Janta Party,109582,109582,84.5,14976,Won,18,Assam
+92,59,Nalbari,Nalbari,Jayanta Malla Baruah,BJP,Bharatiya Janta Party,178677,178677,89.4,49457,Won,18,Assam
+93,110,Naoboicha,Lakhimpur,Bharat Chandra Narah,INC,Indian National Congress,191399,191399,92.6,3613,Won,18,Assam
+94,104,Nazira,Sibsagar,Debabrata Saikia,INC,Indian National Congress,108688,108688,87.6,683,Won,18,Assam
+95,86,Nowgong,Nagaon,Rupak Sarmah,BJP,Bharatiya Janta Party,154847,154847,87,11083,Won,18,Assam
+96,50,Palasbari,Kamrup,Hemanga Thakuria,BJP,Bharatiya Janta Party,130419,130419,87.3,39670,Won,18,Assam
+97,64,Panery,Udalguri,Biswajit Daimary,BJP,Bharatiya Janta Party,117104,117104,80.8,35852,Won,18,Assam
+98,42,Patacharkuchi,Barpeta,Ranjeet Kumar Dass,BJP,Bharatiya Janta Party,111729,111729,79.4,62853,Won,18,Assam
+99,2,Patharkandi,Karimganj,Krishnendu Paul,BJP,Bharatiya Janta Party,149419,149419,86.9,4467,Won,18,Assam
+100,82,Raha,Nagaon,Sashi Kanta Das,INC,Indian National Congress,177332,177332,85.6,13058,Won,18,Assam
+101,74,Rangapara,Sonitpur,Krishna Kamal Tanti,BJP,Bharatiya Janta Party,129636,129636,83.1,22345,Won,18,Assam
+102,57,Rangia,Kamrup,Bhabesh Kalita,BJP,Bharatiya Janta Party,160897,160897,85,20220,Won,18,Assam
+103,1,Ratabari,Karimganj,Bijoy Malakar,BJP,Bharatiya Janta Party,135611,135611,83.6,36221,Won,18,Assam
+104,85,Rupohihat,Nagaon,Nurul Huda,INC,Indian National Congress,179955,179955,94.7,106352,Won,18,Assam
+105,126,Sadiya,Tinsukia,Bolin Chetia,BJP,Bharatiya Janta Party,140657,140657,79.1,22084,Won,18,Assam
+106,22,Salmara South,Dhubri,Wazed Ali Choudhury,INC,Indian National Congress,173208,173208,96.8,135574,Won,18,Assam
+107,88,Samaguri,Nagaon,Rakibul Hussain,INC,Indian National Congress,138531,138531,88.3,26098,Won,18,Assam
+108,46,Sarukhetri,Barpeta,Jakir Hussain Sikdar,INC,Indian National Congress,177615,177615,91.5,29541,Won,18,Assam
+109,94,Sarupathar,Golaghat,Biswajit Phukan,BJP,Bharatiya Janta Party,205041,205041,81.6,39359,Won,18,Assam
+110,108,Sibsagar,Sibsagar,Akhil Gogoi,OTH,Independent,123580,123580,83.1,11875,Won,18,Assam
+111,31,Sidli,Kokrajhar,Joyanta Basumatary,UPPL,United Peoples Party Liberal,169344,169344,81.8,31320,Won,18,Assam
+112,9,Silchar,Cachar,Dipayan Chakraborty,BJP,Bharatiya Janta Party,174067,174067,78.7,37578,Won,18,Assam
+113,66,Sipajhar,Darrang,Paramananda Rajbongshi,BJP,Bharatiya Janta Party,147179,147179,83.9,7134,Won,18,Assam
+114,10,Sonai,Cachar,Karim Uddin Barbhuiya,AIUDF,All India United Democratic Front,146103,146103,84.1,19654,Won,18,Assam
+115,106,Sonari,Sibsagar,Dharmeswar Konwar,BJP,Bharatiya Janta Party,142679,142679,84.9,15117,Won,18,Assam
+116,75,Sootea,Sonitpur,Padma Hazarika,BJP,Bharatiya Janta Party,147680,147680,81.4,24375,Won,18,Assam
+117,40,Sorbhog,Barpeta,Manoranjan Talukdar,CPI(M),Communist Party Of India (Marxist),189564,189564,87.6,10262,Won,18,Assam
+118,58,Tamulpur,Nalbari,Leho Ram Boro,UPPL,United Peoples Party Liberal,166017,166017,82.5,32183,Won,18,Assam
+119,102,Teok,Jorhat,Renupoma Rajkhowa,AGP,Asom Gana Parisad,101945,101945,79.8,1350,Won,18,Assam
+120,73,Tezpur,Sonitpur,Prithiraj Rava,AGP,Asom Gana Parisad,147783,147783,81.6,10123,Won,18,Assam
+121,107,Thowra,Sibsagar,Sushanta Borgohain,INC,Indian National Congress,95751,95751,86.9,2006,Won,18,Assam
+122,119,Tingkhong,Dibrugarh,Bimal Borah,BJP,Bharatiya Janta Party,117091,117091,85.9,28394,Won,18,Assam
+123,122,Tinsukia,Tinsukia,Sanjoy Kishan,BJP,Bharatiya Janta Party,128386,128386,77.6,70797,Won,18,Assam
+124,100,Titabar,Jorhat,Bhaskar Jyoti Baruah,INC,Indian National Congress,120013,120013,83,13379,Won,18,Assam
+125,69,Udalguri,Udalguri,Gobinda Chandra Basumatari,UPPL,United Peoples Party Liberal,118683,118683,81.2,4851,Won,18,Assam
+126,12,Udharbond,Cachar,Mihir Kanti Shome,BJP,Bharatiya Janta Party,128947,128947,85.3,2685,Won,18,Assam
+127,12,Alipurduars,Jalpaiguri,Suman Kanjilal,BJP,Bharatiya Janta Party,220751,220751,88.3,16007,Won,19,West Bengal
+128,102,Amdanga,North Twenty Four Parganas,Rafiqur Rahaman,TMC,All India Trinamool Congress,209418,209418,90.8,25480,Won,19,West Bengal
+129,181,Amta,Haora,Sukanta Kumar Paul,TMC,All India Trinamool Congress,207508,207508,82.2,26205,Won,19,West Bengal
+130,200,Arambag,Hugli,Madhusudan Bag,BJP,Bharatiya Janta Party,216789,216789,87.8,7172,Won,19,West Bengal
+131,280,Asnsol Dakshin,Barddhaman,Agnimitra Paul,BJP,Bharatiya Janta Party,191271,191271,74,4487,Won,19,West Bengal
+132,281,Asansol Uttar,Barddhaman,Ghatak Moloy,TMC,All India Trinamool Congress,189559,189559,74,21110,Won,19,West Bengal
+133,101,Ashoknagar,North Twenty Four Parganas,Narayan Goswami,TMC,All India Trinamool Congress,215113,215113,89.2,23532,Won,19,West Bengal
+134,273,Ausgram,Barddhaman,Abhedananda Thander,TMC,All India Trinamool Congress,213041,213041,90.2,11815,Won,19,West Bengal
+135,99,Baduria,North Twenty Four Parganas,Abdur Rahim Quazi,TMC,All India Trinamool Congress,210930,210930,89.6,56444,Won,19,West Bengal
+136,94,Bagda,North Twenty Four Parganas,Biswajit Das,BJP,Bharatiya Janta Party,217771,217771,81.1,9792,Won,19,West Bengal
+137,240,Baghmundi,Puruliya,Sushanta Mahato,TMC,All India Trinamool Congress,203917,203917,85.9,13969,Won,19,West Bengal
+138,180,Bagnan,Haora,Arunava Sen (Raja),TMC,All India Trinamool Congress,198387,198387,89.1,30120,Won,19,West Bengal
+139,72,Baharampur,Murshidabad,Subrata Maitra (Kanchan),BJP,Bharatiya Janta Party,195082,195082,77.8,26852,Won,19,West Bengal
+140,54,Baisnabnagar,Maldah,Chandana Sarkar,TMC,All India Trinamool Congress,206947,206947,89.4,2471,Won,19,West Bengal
+141,191,Balagarh,Hugli,Manoranjan Bapari,TMC,All India Trinamool Congress,216852,216852,86.9,5784,Won,19,West Bengal
+142,239,Balarampur,Puruliya,Baneswar Mahato,BJP,Bharatiya Janta Party,195524,195524,87.1,423,Won,19,West Bengal
+143,169,Bally,Haora,Rana Chatterjee,TMC,All India Trinamool Congress,124667,124667,75.1,6237,Won,19,West Bengal
+144,161,Ballygunge,Kolkata,Subrata Mukherjee,TMC,All India Trinamool Congress,149645,149645,62.2,75359,Won,19,West Bengal
+145,39,Balurghat,Dakshin Dinajpur,Ashok Kumar Lahiri,BJP,Bharatiya Janta Party,150262,150262,87.2,13436,Won,19,West Bengal
+146,238,Bandwan,Puruliya,Rajib Lochan Saren,TMC,All India Trinamool Congress,238101,238101,87.3,18831,Won,19,West Bengal
+147,96,Bangaon Dakshin,North Twenty Four Parganas,Swapan Majumder,BJP,Bharatiya Janta Party,206292,206292,86.9,2004,Won,19,West Bengal
+148,95,Bangaon Uttar,North Twenty Four Parganas,Ashok Kirtania,BJP,Bharatiya Janta Party,203342,203342,84,10488,Won,19,West Bengal
+149,252,Bankura,Bankura,Niladri Sekhar Dana,BJP,Bharatiya Janta Party,213479,213479,82.9,1468,Won,19,West Bengal
+150,283,Barabani,Barddhaman,Bidhan Upadhyay,TMC,All India Trinamool Congress,166168,166168,77.2,23457,Won,19,West Bengal
+151,113,Baranagar,North Twenty Four Parganas,Tapas Roy,TMC,All India Trinamool Congress,157881,157881,75.7,35147,Won,19,West Bengal
+152,119,Barasat,North Twenty Four Parganas,Chiranjeet Chakrabarti,TMC,All India Trinamool Congress,223019,223019,84.7,23783,Won,19,West Bengal
+153,260,Burdwan Dakshin,Barddhaman,Khokan Das,TMC,All India Trinamool Congress,201638,201638,81.1,8105,Won,19,West Bengal
+154,266,Burdwan Uttar,Barddhaman,Nisith Kumar Malik,TMC,All India Trinamool Congress,239529,239529,91.4,17268,Won,19,West Bengal
+155,253,Barjora,Bankura,Alok Mukherjee,TMC,All India Trinamool Congress,214549,214549,88.2,3269,Won,19,West Bengal
+156,108,Barrackpur,North Twenty Four Parganas,Raju Chakraborty (RAJ),TMC,All India Trinamool Congress,146319,146319,70.4,9222,Won,19,West Bengal
+157,140,Baruipur Paschim,South  Twenty Four Parganas,Biman Banerjee,TMC,All India Trinamool Congress,209757,209757,90.1,61910,Won,19,West Bengal
+158,137,Baruipur Purba,South  Twenty Four Parganas,Bivas Sardar (VOBO),TMC,All India Trinamool Congress,223259,223259,90.9,49641,Won,19,West Bengal
+159,128,Basanti,South  Twenty Four Parganas,Shyamal Mondal,TMC,All India Trinamool Congress,212003,212003,87.8,50642,Won,19,West Bengal
+160,124,Basirhat Dakshin,North Twenty Four Parganas,Dr. Saptarshi Banerjee,TMC,All India Trinamool Congress,234048,234048,88.4,24468,Won,19,West Bengal
+161,125,Basirhat Uttar,North Twenty Four Parganas,Rafikul Islam Mondal,TMC,All India Trinamool Congress,236474,236474,92.7,89351,Won,19,West Bengal
+162,154,Behala Paschim,South  Twenty Four Parganas,Partha Chatterjee,TMC,All India Trinamool Congress,229383,229383,77.6,50884,Won,19,West Bengal
+163,153,Behala Purba,South  Twenty Four Parganas,Ratna Chatterjee,TMC,All India Trinamool Congress,219037,219037,76,37428,Won,19,West Bengal
+164,71,Beldanga,Murshidabad,Hasanuzzaman Sk,TMC,All India Trinamool Congress,203143,203143,85.3,53832,Won,19,West Bengal
+165,164,Beleghata,Kolkata,Paresh Paul,TMC,All India Trinamool Congress,156942,156942,64.7,67140,Won,19,West Bengal
+166,159,Bhabanipur,Kolkata,Sobhandeb Chattopadhyay,TMC,All India Trinamool Congress,125806,125806,62.6,28719,Won,19,West Bengal
+167,62,Bhagabangola,Murshidabad,Idris Ali,TMC,All India Trinamool Congress,222594,222594,89.4,106008,Won,19,West Bengal
+168,214,Bhagabanpur,Purba Medinipur,Rabindranath Maity,BJP,Bharatiya Janta Party,221631,221631,90.2,27549,Won,19,West Bengal
+169,148,Bhangar,South  Twenty Four Parganas,Md. Nawsad Siddique,OTH,Rashtriya Secular Majlis Party,238942,238942,94.8,26151,Won,19,West Bengal
+170,69,Bharatpur,Murshidabad,Humayun Kabir,TMC,All India Trinamool Congress,186603,186603,79.7,43083,Won,19,West Bengal
+171,267,Bhatar,Barddhaman,Adhikari Mangobinda,TMC,All India Trinamool Congress,209822,209822,88.1,31741,Won,19,West Bengal
+172,105,Bhatpara,North Twenty Four Parganas,Pawan Kumar Singh,BJP,Bharatiya Janta Party,106037,106037,71,13687,Won,19,West Bengal
+173,116,Bidhannagar,North Twenty Four Parganas,Sujit Bose S/o - Late Ajit Bose,TMC,All India Trinamool Congress,159822,159822,69.1,7997,Won,19,West Bengal
+174,103,Bijpur,North Twenty Four Parganas,Subodh Adhikary,TMC,All India Trinamool Congress,137869,137869,74.3,13347,Won,19,West Bengal
+175,237,Binpur,Paschim Medinipur,Debnath Hansda,TMC,All India Trinamool Congress,185493,185493,85.6,39494,Won,19,West Bengal
+176,255,Bishnupur,Bankura,Tanmay Ghosh (BUMBA),BJP,Bharatiya Janta Party,188050,188050,90.2,11420,Won,19,West Bengal
+177,146,Bishnupur (SC),South  Twenty Four Parganas,Dilip Mondal,TMC,All India Trinamool Congress,235707,235707,89.1,58832,Won,19,West Bengal
+178,286,Bolpur,Birbhum,Sinha Chandranath,TMC,All India Trinamool Congress,226923,226923,87.5,22280,Won,19,West Bengal
+179,156,Budge Budge,South  Twenty Four Parganas,Ashok Kumar Deb,TMC,All India Trinamool Congress,214157,214157,88.6,44714,Won,19,West Bengal
+180,67,Burwan,Murshidabad,Jiban Krishna Saha,TMC,All India Trinamool Congress,174795,174795,83.5,2749,Won,19,West Bengal
+181,138,Canning Paschim,South  Twenty Four Parganas,Paresh Ram Das,TMC,All India Trinamool Congress,215322,215322,89.3,35243,Won,19,West Bengal
+182,139,Canning Purba,South  Twenty Four Parganas,Saokat Molla,TMC,All India Trinamool Congress,230499,230499,96.3,53007,Won,19,West Bengal
+183,91,Chakdaha,Nadia,Bankim Chandra Ghosh,BJP,Bharatiya Janta Party,210577,210577,89.6,11680,Won,19,West Bengal
+184,31,Chakulia,Uttar Dinajpur,Azad Minhajul Arfin,TMC,All India Trinamool Congress,172214,172214,77.8,33837,Won,19,West Bengal
+185,187,Champdani,Hugli,Arindam Guin (BUBAI),TMC,All India Trinamool Congress,197784,197784,79.5,30078,Won,19,West Bengal
+186,45,Chanchal,Maldah,Nihar Ranjan Ghosh,TMC,All India Trinamool Congress,198656,198656,83.4,67338,Won,19,West Bengal
+187,189,Chandannagar,Hugli,Indranil Sen,TMC,All India Trinamool Congress,179155,179155,80.3,31029,Won,19,West Bengal
+188,211,Chandipur,Purba Medinipur,Soham Chakraborty,TMC,All India Trinamool Congress,219591,219591,92.4,13472,Won,19,West Bengal
+189,194,Chanditala,Hugli,Swati Khandoker,TMC,All India Trinamool Congress,204950,204950,81.1,41347,Won,19,West Bengal
+190,232,Chandrakona,Paschim Medinipur,Arup Dhara,TMC,All India Trinamool Congress,246409,246409,91.9,11281,Won,19,West Bengal
+191,82,Chapra,Nadia,Rukbanur Rahman,TMC,All India Trinamool Congress,211152,211152,89,12118,Won,19,West Bengal
+192,248,Chhatna,Bankura,Satyanarayan Mukhopadhyay,BJP,Bharatiya Janta Party,193322,193322,83,7164,Won,19,West Bengal
+193,28,Chopra,Uttar Dinajpur,Hamidul Rahaman,TMC,All India Trinamool Congress,202579,202579,88.2,64905,Won,19,West Bengal
+194,162,Chowrangee,Kolkata,Bandyopadhyay Nayna,TMC,All India Trinamool Congress,110281,110281,54.5,45344,Won,19,West Bengal
+195,190,Chunchura,Hugli,Asit Mazumder (Tapan),TMC,All India Trinamool Congress,250399,250399,82.3,18417,Won,19,West Bengal
+196,4,Cooch Behar Dakshin,Koch Bihar,Nikhil Ranjan Dey,BJP,Bharatiya Janta Party,194041,194041,86.9,4931,Won,19,West Bengal
+197,3,Coochbehar Uttar,Koch Bihar,Sukumar Roy,BJP,Bharatiya Janta Party,242346,242346,89.1,14615,Won,19,West Bengal
+198,19,Dabgram-Fulbari,Jalpaiguri,Sikha Chatterjee,BJP,Bharatiya Janta Party,255590,255590,90,27593,Won,19,West Bengal
+199,219,Dantan,Paschim Medinipur,Bikram Chandra Pradhan,TMC,All India Trinamool Congress,196548,196548,87.4,623,Won,19,West Bengal
+200,23,Darjeeling,Darjiling,Neeraj Tamang Zimba,BJP,Bharatiya Janta Party,166035,166035,69.5,21276,Won,19,West Bengal
+201,230,Daspur,Paschim Medinipur,Mamata Bhunia,TMC,All India Trinamool Congress,221096,221096,76.4,26842,Won,19,West Bengal
+202,229,Debra,Paschim Medinipur,Humayun Kabir,TMC,All India Trinamool Congress,203513,203513,89.9,11226,Won,19,West Bengal
+203,120,Deganga,North Twenty Four Parganas,Rahima Mondal,TMC,All India Trinamool Congress,212280,212280,92.1,32537,Won,19,West Bengal
+204,197,Dhanekhali,Hugli,Asima Patra,TMC,All India Trinamool Congress,231656,231656,88.1,30159,Won,19,West Bengal
+205,15,Dhupguri,Jalpaiguri,Bishnu Pada Ray,BJP,Bharatiya Janta Party,227339,227339,90.3,4355,Won,19,West Bengal
+206,143,Diamond Harbour,South  Twenty Four Parganas,Pannalal Halder,TMC,All India Trinamool Congress,223948,223948,92.6,16996,Won,19,West Bengal
+207,7,Dinhata,Koch Bihar,Nisith Pramanik,BJP,Bharatiya Janta Party,242214,242214,83.9,57,Won,19,West Bengal
+208,184,Domjur,Haora,Kalyan Ghosh,TMC,All India Trinamool Congress,248896,248896,90.2,42620,Won,19,West Bengal
+209,75,Domkal,Murshidabad,Jafikul Islam,TMC,All India Trinamool Congress,223764,223764,88.6,47229,Won,19,West Bengal
+210,284,Dubrajpur,Birbhum,Anup Kumar Saha,BJP,Bharatiya Janta Party,201442,201442,87.1,3863,Won,19,West Bengal
+211,114,Dum Dum,North Twenty Four Parganas,Brtya Basu,TMC,All India Trinamool Congress,183295,183295,78.8,26731,Won,19,West Bengal
+212,110,Dum Dum Uttar,North Twenty Four Parganas,Chandrima Bhattacharya,TMC,All India Trinamool Congress,211038,211038,82.3,28499,Won,19,West Bengal
+213,277,Durgapur Paschim,Barddhaman,Lakshman Chandra Ghorui,BJP,Bharatiya Janta Party,194278,194278,75.7,14664,Won,19,West Bengal
+214,276,Durgapur Purba,Barddhaman,Pradip Mazumdar,TMC,All India Trinamool Congress,190046,190046,77.7,3746,Won,19,West Bengal
+215,218,Egra,Purba Medinipur,Tarun Kumar Maity,TMC,All India Trinamool Congress,239424,239424,87,18491,Won,19,West Bengal
+216,51,Englishbazar,Maldah,Sreerupa Mitra Chaudhury(NIRBHOY DIDI),BJP,Bharatiya Janta Party,212479,212479,81.4,20099,Won,19,West Bengal
+217,163,Entally,Kolkata,Swarna Kamal Saha,TMC,All India Trinamool Congress,155883,155883,72.4,58257,Won,19,West Bengal
+218,13,Falakata,Jalpaiguri,Dipak Barman,BJP,Bharatiya Janta Party,218530,218530,89.4,3990,Won,19,West Bengal
+219,144,Falta,South  Twenty Four Parganas,Sankar Kumar Naskar,TMC,All India Trinamool Congress,206747,206747,91.5,40774,Won,19,West Bengal
+220,55,Farakka,Murshidabad,Manirul Islam,TMC,All India Trinamool Congress,184786,184786,86.9,59945,Won,19,West Bengal
+221,97,Gaighata,North Twenty Four Parganas,Subrata Thakur,BJP,Bharatiya Janta Party,211834,211834,87.9,9578,Won,19,West Bengal
+222,274,Galsi,Barddhaman,Nepal Ghorui,TMC,All India Trinamool Congress,220284,220284,88.2,19262,Won,19,West Bengal
+223,41,Gangarampur,Dakshin Dinajpur,Satyendra Nath  Ray,BJP,Bharatiya Janta Party,188333,188333,88.6,4592,Won,19,West Bengal
+224,233,Garbeta,Paschim Medinipur,Uttara Singha (Hazra),TMC,All India Trinamool Congress,204962,204962,92,10572,Won,19,West Bengal
+225,44,Gazole,Maldah,Chinmoy Deb Barman,BJP,Bharatiya Janta Party,219478,219478,86.4,1798,Won,19,West Bengal
+226,231,Ghatal,Paschim Medinipur,Sital Kapat,BJP,Bharatiya Janta Party,224070,224070,82.9,966,Won,19,West Bengal
+227,30,Goalpokhar,Uttar Dinajpur,Md. Ghulam Rabbani,TMC,All India Trinamool Congress,159519,159519,74,73514,Won,19,West Bengal
+228,201,Goghat,Hugli,Biswanath Karak,BJP,Bharatiya Janta Party,217063,217063,90.8,4147,Won,19,West Bengal
+229,221,Gopiballavpur,Paschim Medinipur,Dr. Khagendra Nath Mahata,TMC,All India Trinamool Congress,196279,196279,89.4,23768,Won,19,West Bengal
+230,127,Gosaba,South  Twenty Four Parganas,Jayanta Naskar,TMC,All India Trinamool Congress,194791,194791,88.1,23709,Won,19,West Bengal
+231,43,Habibpur,Maldah,Joyel Murmu,BJP,Bharatiya Janta Party,195827,195827,81.5,19517,Won,19,West Bengal
+232,100,Habra,North Twenty Four Parganas,Jyoti Priya Mallick,TMC,All India Trinamool Congress,202881,202881,86.5,3841,Won,19,West Bengal
+233,209,Haldia,Purba Medinipur,Tapasi Mondal,BJP,Bharatiya Janta Party,219410,219410,91.7,15008,Won,19,West Bengal
+234,292,Hansan,Birbhum,Dr. Asok Kumar Chattopadhyay,TMC,All India Trinamool Congress,208186,208186,88.1,50613,Won,19,West Bengal
+235,121,Haroa,North Twenty Four Parganas,Islam Sk Nurul (HAJI),TMC,All India Trinamool Congress,224465,224465,91,80978,Won,19,West Bengal
+236,73,Hariharpara,Murshidabad,Niamot Sheikh,TMC,All India Trinamool Congress,214958,214958,91.7,14066,Won,19,West Bengal
+237,93,Haringhata,Nadia,Asim Kumar Sarkar,BJP,Bharatiya Janta Party,209447,209447,90.4,15200,Won,19,West Bengal
+238,196,Haripal,Hugli,Dr. Karabi Manna,TMC,All India Trinamool Congress,217407,217407,83.6,23072,Won,19,West Bengal
+239,42,Harirampur,Dakshin Dinajpur,Biplab Mitra,TMC,All India Trinamool Congress,185819,185819,86.1,22672,Won,19,West Bengal
+240,46,Harischandrapur,Maldah,Tajmul Hossain,TMC,All India Trinamool Congress,202141,202141,84.7,77473,Won,19,West Bengal
+241,33,Hemtabad,Uttar Dinajpur,Satyajit Barman,TMC,All India Trinamool Congress,221141,221141,87.5,27215,Won,19,West Bengal
+242,126,Hingalganj,North Twenty Four Parganas,Debes Mandal,TMC,All India Trinamool Congress,192945,192945,87.4,24916,Won,19,West Bengal
+243,173,Howrah Dakshin,Haora,Nandita Chowdhury,TMC,All India Trinamool Congress,213992,213992,76.8,50569,Won,19,West Bengal
+244,171,Howrah Madhya,Haora,Arup Roy S/o Late Prabhat Roy,TMC,All India Trinamool Congress,192409,192409,76.6,46547,Won,19,West Bengal
+245,170,Howrah Uttar,Haora,Gautam Chowdhuri,TMC,All India Trinamool Congress,148050,148050,72,5522,Won,19,West Bengal
+246,257,Indus,Bankura,Nirmal Kumar Dhara,BJP,Bharatiya Janta Party,215271,215271,91.6,7220,Won,19,West Bengal
+247,29,Islampur,Uttar Dinajpur,Abdul Karim Chowdhary,TMC,All India Trinamool Congress,167998,167998,82.3,37440,Won,19,West Bengal
+248,36,Itahar,Uttar Dinajpur,Mosaraf Hussen,TMC,All India Trinamool Congress,192746,192746,88.2,43975,Won,19,West Bengal
+249,150,Jadavpur,South  Twenty Four Parganas,Debabrata Majumdar (MALAY),TMC,All India Trinamool Congress,212689,212689,74.5,38869,Won,19,West Bengal
+250,183,Jagatballavpur,Haora,Sitanath Ghosh,TMC,All India Trinamool Congress,232952,232952,85.5,29196,Won,19,West Bengal
+251,106,Jagatdal,North Twenty Four Parganas,Somenath Shyam Ichini,TMC,All India Trinamool Congress,178719,178719,80.5,18364,Won,19,West Bengal
+252,76,Jalangi,Murshidabad,Abdur Razzak,TMC,All India Trinamool Congress,219616,219616,88.3,79276,Won,19,West Bengal
+253,17,Jalpaiguri,Jalpaiguri,Dr. Pradip Kumar Barma,TMC,All India Trinamool Congress,222552,222552,87.1,941,Won,19,West Bengal
+254,262,Jamalpur,Barddhaman,Alok Kumar Majhi,TMC,All India Trinamool Congress,203825,203825,88.9,17971,Won,19,West Bengal
+255,279,Jamuria,Barddhaman,Hareram Singh,TMC,All India Trinamool Congress,164350,164350,78.7,8051,Won,19,West Bengal
+256,195,Jangipara,Hugli,Snehasis Chakraborty,TMC,All India Trinamool Congress,207371,207371,84,17926,Won,19,West Bengal
+257,136,Jaynagar,South  Twenty Four Parganas,Biswanath Das,TMC,All India Trinamool Congress,201267,201267,88.2,38683,Won,19,West Bengal
+258,222,Jhargram,Paschim Medinipur,Birbaha Hansda,TMC,All India Trinamool Congress,198161,198161,87.7,38240,Won,19,West Bengal
+259,165,Jorasanko,Kolkata,Vivek Gupta,TMC,All India Trinamool Congress,97927,97927,51,12743,Won,19,West Bengal
+260,241,Joypur,Puruliya,Nara Hari Mahato,BJP,Bharatiya Janta Party,199811,199811,84.4,12200,Won,19,West Bengal
+261,131,Kakdwip,South  Twenty Four Parganas,Manturam Pakhira,TMC,All India Trinamool Congress,218574,218574,93.2,25302,Won,19,West Bengal
+262,11,Kalchini,Jalpaiguri,Bishal Lama,BJP,Bharatiya Janta Party,193438,193438,82.1,28576,Won,19,West Bengal
+263,34,Kaliaganj,Uttar Dinajpur,Soumen Roy,BJP,Bharatiya Janta Party,236719,236719,87.7,21820,Won,19,West Bengal
+264,80,Kaliganj,Nadia,Nasiruddin Ahamed (LAL),TMC,All India Trinamool Congress,207328,207328,88.4,46987,Won,19,West Bengal
+265,22,Kalimpong,Darjiling,Ruden Sada Lepcha,OTH,Independent,152703,152703,74.3,3870,Won,19,West Bengal
+266,264,Kalna,Barddhaman,Deboprasad Bag (POLTU),TMC,All India Trinamool Congress,206444,206444,87.9,7478,Won,19,West Bengal
+267,92,Kalyani,Nadia,Ambika Roy,BJP,Bharatiya Janta Party,217761,217761,88.8,2206,Won,19,West Bengal
+268,112,Kamarhati,North Twenty Four Parganas,Madan Mitra,TMC,All India Trinamool Congress,142757,142757,75.5,35408,Won,19,West Bengal
+269,68,Kandi,Murshidabad,Apurba Sarkar (DAVID),TMC,All India Trinamool Congress,183350,183350,81.3,38080,Won,19,West Bengal
+270,216,Kanthi Dakshin,Purba Medinipur,Arup Kumar Das,BJP,Bharatiya Janta Party,193811,193811,89.3,10293,Won,19,West Bengal
+271,213,Kanthi Uttar,Purba Medinipur,Sumita Sinha,BJP,Bharatiya Janta Party,226924,226924,91.2,9330,Won,19,West Bengal
+272,32,Karandighi,Uttar Dinajpur,Goutam Paul,TMC,All India Trinamool Congress,210687,210687,85.4,36626,Won,19,West Bengal
+273,77,Karimpur,Nadia,Bimalendu Sinha Roy,TMC,All India Trinamool Congress,220178,220178,91.2,23575,Won,19,West Bengal
+274,149,Kasba,South  Twenty Four Parganas,Ahmed Javed Khan,TMC,All India Trinamool Congress,220678,220678,78.5,63622,Won,19,West Bengal
+275,244,Kashipur,Puruliya,Kamalakanta Hansda,BJP,Bharatiya Janta Party,192491,192491,84.5,7387,Won,19,West Bengal
+276,168,Kashipur-Belgachhia,Kolkata,Atin Ghosh,TMC,All India Trinamool Congress,133295,133295,61.2,35390,Won,19,West Bengal
+277,256,Katulpur,Bankura,Harakali Protiher,BJP,Bharatiya Janta Party,222267,222267,93.8,11785,Won,19,West Bengal
+278,270,Katwa,Barddhaman,Rabindranath Chatterjee,TMC,All India Trinamool Congress,222679,222679,86.6,9155,Won,19,West Bengal
+279,223,Keshiary,Paschim Medinipur,Paresh Murmu,TMC,All India Trinamool Congress,210111,210111,90.9,15330,Won,19,West Bengal
+280,235,Keshpur,Paschim Medinipur,Seuli Saha,TMC,All India Trinamool Congress,226934,226934,90.6,20720,Won,19,West Bengal
+281,271,Ketugram,Barddhaman,Sekh Sahonawez,TMC,All India Trinamool Congress,211697,211697,85.3,12683,Won,19,West Bengal
+282,202,Khanakul,Hugli,Susanta Ghosh,BJP,Bharatiya Janta Party,214713,214713,80.7,12884,Won,19,West Bengal
+283,259,Khandaghosh,Barddhaman,Nabin Chandra Bag,TMC,All India Trinamool Congress,215953,215953,91.9,20886,Won,19,West Bengal
+284,228,Kharagpur,Paschim Medinipur,Dinen Roy,TMC,All India Trinamool Congress,197730,197730,91.6,36230,Won,19,West Bengal
+285,224,Kharagpur Sadar,Paschim Medinipur,Hiranmoy Chattopadhyaya,BJP,Bharatiya Janta Party,168742,168742,74.8,3771,Won,19,West Bengal
+286,109,Khardaha,North Twenty Four Parganas,Kajal Sinha,TMC,All India Trinamool Congress,180732,180732,83.1,28140,Won,19,West Bengal
+287,66,Khargram,Murshidabad,Ashis Marjit,TMC,All India Trinamool Congress,184251,184251,84.2,32573,Won,19,West Bengal
+288,215,Khejuri,Purba Medinipur,Santanu Pramanik,BJP,Bharatiya Janta Party,211485,211485,92.7,17965,Won,19,West Bengal
+289,158,Kolkata Port,Kolkata,Firhad Hakim,TMC,All India Trinamool Congress,151083,151083,67.7,68554,Won,19,West Bengal
+290,83,Krishnanagar Uttar,Nadia,Mukul Roy,BJP,Bharatiya Janta Party,199954,199954,86.9,35089,Won,19,West Bengal
+291,88,Krishnaganj,Nadia,Ashis Kumar Biswas,BJP,Bharatiya Janta Party,229839,229839,87,21277,Won,19,West Bengal
+292,85,Krishnanagar Dakshin,Nadia,Ujjal Biswas,TMC,All India Trinamool Congress,193520,193520,89.1,9305,Won,19,West Bengal
+293,133,Kulpi,South  Twenty Four Parganas,Jogaranjan Halder,TMC,All India Trinamool Congress,191445,191445,91.9,33818,Won,19,West Bengal
+294,129,Kultali,South  Twenty Four Parganas,Ganesh Chandra Mondal,TMC,All India Trinamool Congress,226303,226303,91.1,47177,Won,19,West Bengal
+295,282,Kulti,Barddhaman,Ajay  Kumar Poddar,BJP,Bharatiya Janta Party,171214,171214,71.8,679,Won,19,West Bengal
+296,38,Kumarganj,Dakshin Dinajpur,Toraf Hossain Mandal,TMC,All India Trinamool Congress,169803,169803,87.4,29367,Won,19,West Bengal
+297,10,Kumargram,Jalpaiguri,Manoj Kumar Oraon,BJP,Bharatiya Janta Party,229771,229771,87.5,11001,Won,19,West Bengal
+298,24,Kurseong,Darjiling,Bishnu Prasad Sharma (alias B.P. Bajgain),BJP,Bharatiya Janta Party,173128,173128,75.3,15515,Won,19,West Bengal
+299,37,Kushmandi,Dakshin Dinajpur,Rekha Roy,TMC,All India Trinamool Congress,182477,182477,87.1,12584,Won,19,West Bengal
+300,288,Labhpur,Birbhum,Abhijit Sinha (RANA),TMC,All India Trinamool Congress,208970,208970,90.8,17975,Won,19,West Bengal
+301,61,Lalgola,Murshidabad,Ali Mohammad,TMC,All India Trinamool Congress,189044,189044,86.1,60707,Won,19,West Bengal
+302,14,Madarihat,Jalpaiguri,Manoj Tigga,BJP,Bharatiya Janta Party,164298,164298,80.8,29685,Won,19,West Bengal
+303,118,Madhyamgram,North Twenty Four Parganas,Rathin Ghosh,TMC,All India Trinamool Congress,227279,227279,88,48126,Won,19,West Bengal
+304,142,Magrahat Paschim,South  Twenty Four Parganas,Gias Uddin Molla,TMC,All India Trinamool Congress,191996,191996,89.5,46941,Won,19,West Bengal
+305,141,Magrahat Purba,South  Twenty Four Parganas,Namita Saha,TMC,All India Trinamool Congress,204673,204673,89.5,54079,Won,19,West Bengal
+306,155,Maheshtala,South  Twenty Four Parganas,Dulal Chandra Das,TMC,All India Trinamool Congress,217920,217920,86.2,57949,Won,19,West Bengal
+307,208,Mahishadal,Purba Medinipur,Tilak Kumar Chakraborty,TMC,All India Trinamool Congress,217590,217590,92.4,2386,Won,19,West Bengal
+308,20,Mal,Jalpaiguri,Bulu Chik Baraik,TMC,All India Trinamool Congress,208556,208556,86.1,5465,Won,19,West Bengal
+309,47,Malatipur,Maldah,Abdur Rahim Boxi,TMC,All India Trinamool Congress,183450,183450,84.2,91949,Won,19,West Bengal
+310,50,Maldaha,Maldah,Gopal Chandra Saha,BJP,Bharatiya Janta Party,203671,203671,87.4,15456,Won,19,West Bengal
+311,243,Manbazar,Puruliya,Sandhyarani Tudu,TMC,All India Trinamool Congress,211438,211438,86.5,15516,Won,19,West Bengal
+312,135,Mandirbazar,South  Twenty Four Parganas,Joydeb Halder,TMC,All India Trinamool Congress,197668,197668,90.2,23492,Won,19,West Bengal
+313,272,Mongalkote,Barddhaman,Apurba Chowdhury (Achal),TMC,All India Trinamool Congress,213503,213503,88.3,22337,Won,19,West Bengal
+314,49,Manikchak,Maldah,Sabitri Mitra,TMC,All India Trinamool Congress,205624,205624,85.5,33878,Won,19,West Bengal
+315,167,Maniktola,Kolkata,Sadhan Pande,TMC,All India Trinamool Congress,131547,131547,65.2,20238,Won,19,West Bengal
+316,2,Mathabhanga,Koch Bihar,Sushil Barman,BJP,Bharatiya Janta Party,212760,212760,88,26134,Won,19,West Bengal
+317,157,Metiaburuz,South  Twenty Four Parganas,Abdul Khaleque Molla,TMC,All India Trinamool Congress,193574,193574,82.8,119604,Won,19,West Bengal
+318,25,Matigara-Naxalbari,Darjiling,Anandamay Barman,BJP,Bharatiya Janta Party,236679,236679,88.5,70848,Won,19,West Bengal
+319,16,Maynaguri,Jalpaiguri,Kaushik Roy,BJP,Bharatiya Janta Party,232998,232998,92.7,11911,Won,19,West Bengal
+320,290,Mayureswar,Birbhum,Abhijit Roy,TMC,All India Trinamool Congress,196622,196622,88,12075,Won,19,West Bengal
+321,236,Medinipur,Paschim Medinipur,June Maliah,TMC,All India Trinamool Congress,234970,234970,88.1,24397,Won,19,West Bengal
+322,1,Mekliganj,Koch Bihar,Adhikary Paresh Chandra,TMC,All India Trinamool Congress,196297,196297,90.5,14685,Won,19,West Bengal
+323,265,Memari,Barddhaman,Madhusudan Bhattacharya,TMC,All India Trinamool Congress,217129,217129,88.4,23078,Won,19,West Bengal
+324,122,Minakhan,North Twenty Four Parganas,Usha Rani Mondal,TMC,All India Trinamool Congress,208412,208412,92.3,55830,Won,19,West Bengal
+325,263,Monteswar,Barddhaman,Chowdhury Siddiqullah,TMC,All India Trinamool Congress,207425,207425,88.8,31805,Won,19,West Bengal
+326,52,Mothabari,Maldah,Yeasmin Sabina,TMC,All India Trinamool Congress,161004,161004,87.6,56573,Won,19,West Bengal
+327,206,Moyna,Purba Medinipur,Ashoke Dinda,BJP,Bharatiya Janta Party,223099,223099,91,1260,Won,19,West Bengal
+328,294,Murarai,Birbhum,Dr Mosarraf Hossain,TMC,All India Trinamool Congress,216408,216408,86.1,98246,Won,19,West Bengal
+329,64,Murshidabad,Murshidabad,Gouri Sankar Ghosh,BJP,Bharatiya Janta Party,226327,226327,88.4,2491,Won,19,West Bengal
+330,84,Nabadwip,Nadia,Pundarikakshya Saha,TMC,All India Trinamool Congress,208245,208245,87.7,18571,Won,19,West Bengal
+331,65,Nabagram,Murshidabad,Kanai Chandra Mondal,TMC,All India Trinamool Congress,205887,205887,85.9,35533,Won,19,West Bengal
+332,21,Nagrakata,Jalpaiguri,Puna Bhengra,BJP,Bharatiya Janta Party,185715,185715,82.1,23475,Won,19,West Bengal
+333,104,Naihati,North Twenty Four Parganas,Partha Bhowmick,TMC,All India Trinamool Congress,154767,154767,82.1,18855,Won,19,West Bengal
+334,81,Nakashipara,Nadia,Kallol Khan,TMC,All India Trinamool Congress,208424,208424,88.6,21271,Won,19,West Bengal
+335,293,Nalhati,Birbhum,Rajendra Prasad Singh (RAJU SINGH),TMC,All India Trinamool Congress,205796,205796,88.6,56905,Won,19,West Bengal
+336,207,Nandakumar,Purba Medinipur,Sukumar De,TMC,All India Trinamool Congress,225802,225802,92.3,5406,Won,19,West Bengal
+337,210,Nandigram,Purba Medinipur,Adhikari Suvendu,BJP,Bharatiya Janta Party,227315,227315,91.9,1956,Won,19,West Bengal
+338,287,Nanoor,Birbhum,Bidhan Chandra Majhi,TMC,All India Trinamool Congress,233179,233179,87.7,6670,Won,19,West Bengal
+339,74,Naoda,Murshidabad,Sahina Momtaz Khan,TMC,All India Trinamool Congress,201041,201041,85.7,74153,Won,19,West Bengal
+340,225,Narayangarh,Paschim Medinipur,Atta Surja Kanta,TMC,All India Trinamool Congress,215994,215994,92,2416,Won,19,West Bengal
+341,8,Natabari,Koch Bihar,Mihir Goswami,BJP,Bharatiya Janta Party,216027,216027,91.8,23440,Won,19,West Bengal
+342,220,Nayagram,Paschim Medinipur,Dulal Murmu,TMC,All India Trinamool Congress,189268,189268,86.6,22754,Won,19,West Bengal
+343,107,Noapara,North Twenty Four Parganas,Manju Basu,TMC,All India Trinamool Congress,189748,189748,75.2,26710,Won,19,West Bengal
+344,254,Onda,Bankura,Amarnath  Shakha,BJP,Bharatiya Janta Party,220880,220880,90.5,11551,Won,19,West Bengal
+345,79,Palashipara,Nadia,Dr. Manik Bhattacharya,TMC,All India Trinamool Congress,201731,201731,86.8,51336,Won,19,West Bengal
+346,175,Panchla,Haora,Gulsan Mullick,TMC,All India Trinamool Congress,214598,214598,85.6,32751,Won,19,West Bengal
+347,275,Pandabeswar,Barddhaman,Narendranath Chakraborty,TMC,All India Trinamool Congress,161556,161556,80.9,3803,Won,19,West Bengal
+348,192,Pandua,Hugli,Dr. Ratna De Nag,TMC,All India Trinamool Congress,221500,221500,85.2,31858,Won,19,West Bengal
+349,111,Panihati,North Twenty Four Parganas,Nirmal Ghosh,TMC,All India Trinamool Congress,172022,172022,77.4,25177,Won,19,West Bengal
+350,205,Panskura Paschim,Purba Medinipur,Phiroja Bibi,TMC,All India Trinamool Congress,232804,232804,88.7,8889,Won,19,West Bengal
+351,204,Panskura Purba,Purba Medinipur,Biplab Roy Chowdhury,TMC,All India Trinamool Congress,197217,197217,86.7,9660,Won,19,West Bengal
+352,245,Para,Puruliya,Nadiar Chand Bouri,BJP,Bharatiya Janta Party,190364,190364,82.2,4007,Won,19,West Bengal
+353,212,Patashpur,Purba Medinipur,Uttam Barik,TMC,All India Trinamool Congress,207966,207966,91.2,9994,Won,19,West Bengal
+354,130,Patharpratima,South  Twenty Four Parganas,Samir Kumar Jana,TMC,All India Trinamool Congress,230572,230572,91.3,22134,Won,19,West Bengal
+355,27,Phansidewa,Darjiling,Durga Murmu,BJP,Bharatiya Janta Party,205015,205015,91.4,27711,Won,19,West Bengal
+356,227,Pingla,Paschim Medinipur,Ajit Maity,TMC,All India Trinamool Congress,226596,226596,92.4,6656,Won,19,West Bengal
+357,268,Purbasthali Dakshin,Barddhaman,Swapan Debnath,TMC,All India Trinamool Congress,213791,213791,88.9,17410,Won,19,West Bengal
+358,269,Purbasthali Uttar,Barddhaman,Tapan Chatterjee,TMC,All India Trinamool Congress,210993,210993,87.1,6706,Won,19,West Bengal
+359,199,Pursurah,Hugli,Biman Ghosh,BJP,Bharatiya Janta Party,220286,220286,87.4,28178,Won,19,West Bengal
+360,242,Purulia,Puruliya,Sudip Kumar Mukherjee,BJP,Bharatiya Janta Party,204280,204280,83.8,7018,Won,19,West Bengal
+361,59,Raghunathganj,Murshidabad,Akhruzzaman,TMC,All India Trinamool Congress,187540,187540,81,98313,Won,19,West Bengal
+362,246,Raghunathpur,Puruliya,Vivekananda Bauri,BJP,Bharatiya Janta Party,211133,211133,85.1,5438,Won,19,West Bengal
+363,134,Raidighi,South  Twenty Four Parganas,Aloke Jaldata,TMC,All India Trinamool Congress,237258,237258,90.7,35568,Won,19,West Bengal
+364,35,Raiganj,Uttar Dinajpur,Krishna Kalyani,BJP,Bharatiya Janta Party,158879,158879,83.2,20748,Won,19,West Bengal
+365,261,Raina,Barddhaman,Shampa Dhara,TMC,All India Trinamool Congress,227603,227603,91.7,18205,Won,19,West Bengal
+366,250,Raipur,Bankura,Mrityunjoy Murmu,TMC,All India Trinamool Congress,191490,191490,88.6,19398,Won,19,West Bengal
+367,117,Rajarhat  Gopalpur,North Twenty Four Parganas,Aditi Munshi,TMC,All India Trinamool Congress,176465,176465,73.6,25296,Won,19,West Bengal
+368,115,Rajarhat New Town,North Twenty Four Parganas,Tapash Chatterjee,TMC,All India Trinamool Congress,232874,232874,89.9,56432,Won,19,West Bengal
+369,18,Rajganj,Jalpaiguri,Khageswar Roy,TMC,All India Trinamool Congress,212580,212580,90.9,15773,Won,19,West Bengal
+370,217,Ramnagar,Purba Medinipur,Akhil Giri,TMC,All India Trinamool Congress,220827,220827,86.6,12517,Won,19,West Bengal
+371,291,Rampurhat,Birbhum,Asish Banerjee,TMC,All India Trinamool Congress,213942,213942,86,8472,Won,19,West Bengal
+372,90,Ranaghat Dakshin,Nadia,Mukut Mani Adhikari,BJP,Bharatiya Janta Party,240110,240110,87.4,16515,Won,19,West Bengal
+373,87,Ranaghat Uttar Paschim,Nadia,Parthasarathi Chatterjee,BJP,Bharatiya Janta Party,220935,220935,86.7,23128,Won,19,West Bengal
+374,89,Ranaghat Uttar Purba,Nadia,Ashim Biswas,BJP,Bharatiya Janta Party,212377,212377,83.6,31782,Won,19,West Bengal
+375,249,Ranibandh,Bankura,Jyotsna Mandi,TMC,All India Trinamool Congress,206944,206944,84.5,3939,Won,19,West Bengal
+376,278,Raniganj,Barddhaman,Tapas Banerjee,TMC,All India Trinamool Congress,180205,180205,75.4,3556,Won,19,West Bengal
+377,63,Raninagar,Murshidabad,Abdul Soumik Hossain,TMC,All India Trinamool Congress,219242,219242,90,79702,Won,19,West Bengal
+378,160,Rashbehari,Kolkata,Debasish Kumar,TMC,All India Trinamool Congress,122793,122793,61.7,21414,Won,19,West Bengal
+379,48,Ratua,Maldah,Samar Mukherjee,TMC,All India Trinamool Congress,217097,217097,82.3,75650,Won,19,West Bengal
+380,70,Rejinagar,Murshidabad,Rabiul Alam Chowdhury,TMC,All India Trinamool Congress,208885,208885,85,68268,Won,19,West Bengal
+381,226,Sabang,Paschim Medinipur,Manas Ranjan Bhunia,TMC,All India Trinamool Congress,234667,234667,91.8,9864,Won,19,West Bengal
+382,132,Sagar,South  Twenty Four Parganas,Bankim Chandra Hazra,TMC,All India Trinamool Congress,238042,238042,91.1,29846,Won,19,West Bengal
+383,60,Sagardighi,Murshidabad,Subrata Saha,TMC,All India Trinamool Congress,185111,185111,82.6,50206,Won,19,West Bengal
+384,289,Sainthia,Birbhum,Nilabati Saha,TMC,All India Trinamool Congress,220124,220124,89.3,15243,Won,19,West Bengal
+385,234,Salboni,Paschim Medinipur,Srikanta Mahata,TMC,All India Trinamool Congress,247230,247230,93.2,32644,Won,19,West Bengal
+386,247,Saltora,Bankura,Bauri Chandana,BJP,Bharatiya Janta Party,199050,199050,88.7,4145,Won,19,West Bengal
+387,123,Sandeshkhali,North Twenty Four Parganas,Sukumar Mahata,TMC,All India Trinamool Congress,203331,203331,88.6,39685,Won,19,West Bengal
+388,174,Sankrail,Haora,Priya Paul,TMC,All India Trinamool Congress,220277,220277,84.7,40427,Won,19,West Bengal
+389,86,Santipur,Nadia,Jagannath Sarkar,BJP,Bharatiya Janta Party,217307,217307,89.8,15878,Won,19,West Bengal
+390,193,Saptagram,Hugli,Tapan Dasgupta,TMC,All India Trinamool Congress,189153,189153,83.9,9772,Won,19,West Bengal
+391,145,Satgachhia,South  Twenty Four Parganas,Mohan Chandra Naskar,TMC,All India Trinamool Congress,234169,234169,90.5,23318,Won,19,West Bengal
+392,172,Shibpur,Haora,Manoj Tiwary,TMC,All India Trinamool Congress,180307,180307,81.3,32603,Won,19,West Bengal
+393,166,Shyampukur,Kolkata,Dr. Shashi Panja,TMC,All India Trinamool Congress,101907,101907,59.2,22520,Won,19,West Bengal
+394,179,Shyampur,Haora,Kalipada Mandal,TMC,All India Trinamool Congress,220747,220747,88.2,31511,Won,19,West Bengal
+395,26,Siliguri,Darjiling,Sankar Ghosh,BJP,Bharatiya Janta Party,176576,176576,81.9,35586,Won,19,West Bengal
+396,188,Singur,Hugli,Becharam Manna,TMC,All India Trinamool Congress,207593,207593,86,25923,Won,19,West Bengal
+397,6,Sitai,Koch Bihar,Jagadish Chandra Barma Basunia,TMC,All India Trinamool Congress,237001,237001,85.5,10112,Won,19,West Bengal
+398,5,Sitalkuchi,Koch Bihar,Baren Chandra Barman,BJP,Bharatiya Janta Party,243223,243223,88.2,17815,Won,19,West Bengal
+399,258,Sonamukhi,Bankura,Dibakar Gharami,BJP,Bharatiya Janta Party,205663,205663,91.7,10888,Won,19,West Bengal
+400,147,Sonarpur Dakshin,South  Twenty Four Parganas,Arundhuti Maitra (LOVELY),TMC,All India Trinamool Congress,230257,230257,85.8,26181,Won,19,West Bengal
+401,151,Sonarpur Uttar,South  Twenty Four Parganas,Firdousi Begum,TMC,All India Trinamool Congress,238381,238381,86.8,36090,Won,19,West Bengal
+402,186,Sreerampur,Hugli,Dr. Sudipto Roy,TMC,All India Trinamool Congress,185681,185681,77.6,23433,Won,19,West Bengal
+403,53,Sujapur,Maldah,Md Abdul Ghani,TMC,All India Trinamool Congress,206064,206064,89.8,130163,Won,19,West Bengal
+404,285,Suri,Birbhum,Bikash Roychoudhury,TMC,All India Trinamool Congress,216755,216755,85.8,7320,Won,19,West Bengal
+405,57,Suti,Murshidabad,Emani Biswas,TMC,All India Trinamool Congress,213604,213604,87.4,70701,Won,19,West Bengal
+406,98,Swarupnagar,North Twenty Four Parganas,Bina Mondal,TMC,All India Trinamool Congress,210548,210548,88.2,34800,Won,19,West Bengal
+407,251,Taldangra,Bankura,Arup Chakraborty,TMC,All India Trinamool Congress,199668,199668,88.7,12377,Won,19,West Bengal
+408,203,Tamluk,Purba Medinipur,Saumen Kumar Mahapatra,TMC,All India Trinamool Congress,234895,234895,91.9,793,Won,19,West Bengal
+409,40,Tapan,Dakshin Dinajpur,Budhrai Tudu,BJP,Bharatiya Janta Party,184606,184606,88.6,1650,Won,19,West Bengal
+410,198,Tarakeswar,Hugli,Ramendu Sinharay,TMC,All India Trinamool Congress,203165,203165,87.4,7484,Won,19,West Bengal
+411,78,Tehatta,Nadia,Tapas Kumar Saha,TMC,All India Trinamool Congress,216373,216373,88.4,6915,Won,19,West Bengal
+412,152,Tollyganj,South  Twenty Four Parganas,Aroop Biswas,TMC,All India Trinamool Congress,195055,195055,75.6,50080,Won,19,West Bengal
+413,9,Tufanganj,Koch Bihar,Malati Rava Roy,BJP,Bharatiya Janta Party,207309,207309,91.7,31198,Won,19,West Bengal
+414,182,Udaynarayanpur,Haora,Samir Kumar Panja,TMC,All India Trinamool Congress,196991,196991,86.6,13998,Won,19,West Bengal
+415,178,Uluberia Dakshin,Haora,Pulak Roy,TMC,All India Trinamool Congress,200792,200792,88.7,28438,Won,19,West Bengal
+416,176,Uluberia Purba,Haora,Bidesh Ranjan Bose,TMC,All India Trinamool Congress,190910,190910,86.6,17126,Won,19,West Bengal
+417,177,Uluberia Uttar,Haora,Dr. Nirmal Maji,TMC,All India Trinamool Congress,184532,184532,85.8,21003,Won,19,West Bengal
+418,185,Uttarpara,Hugli,Kanchan Mullick,TMC,All India Trinamool Congress,196541,196541,78.8,35989,Won,19,West Bengal
+419,28,Alandur,Kancheepuram,T.M.Anbarasan,DMK,Dravida Munetra Kazhagam,235863,235863,65,40571,Won,33,Tamil Nadu
+420,182,Alangudi,Pudukkottai,Siva.V.Meyyanathan,DMK,Dravida Munetra Kazhagam,171140,171140,84.1,25847,Won,33,Tamil Nadu
+421,223,Alangulam,Tirunelveli,Paul Manoj Pandian,AIADMK,All India Anna Dravida Munnetra Kazhagam,201692,201692,79.9,3539,Won,33,Tamil Nadu
+422,225,Ambasamudram,Tirunelveli,E.Subaya,AIADMK,All India Anna Dravida Munnetra Kazhagam,176008,176008,72.6,16915,Won,33,Tamil Nadu
+423,8,Ambattur,Thiruvallur,Joseph Samuel,DMK,Dravida Munetra Kazhagam,237941,237941,65.8,42146,Won,33,Tamil Nadu
+424,48,Ambur,Vellore,Vilwanathan.A.C,DMK,Dravida Munetra Kazhagam,176461,176461,78.3,20232,Won,33,Tamil Nadu
+425,44,Anaikattu,Vellore,A.P.Nandakumar,DMK,Dravida Munetra Kazhagam,196014,196014,81.3,6360,Won,33,Tamil Nadu
+426,198,Andipatti,Theni,A.Maharajan,DMK,Dravida Munetra Kazhagam,208207,208207,78.7,8538,Won,33,Tamil Nadu
+427,21,Anna Nagar,Chennai,M.K. Mohan,DMK,Dravida Munetra Kazhagam,163551,163551,59.7,27445,Won,33,Tamil Nadu
+428,105,Anthiyur,Erode,Venkatachalam.A.G,DMK,Dravida Munetra Kazhagam,175358,175358,82.1,1275,Won,33,Tamil Nadu
+429,38,Arakkonam,Vellore,S.Ravi,AIADMK,All India Anna Dravida Munnetra Kazhagam,169756,169756,78.3,27169,Won,33,Tamil Nadu
+430,67,Arani,Tiruvannamalai,S.Ramachandran,AIADMK,All India Anna Dravida Munnetra Kazhagam,219732,219732,83.1,3128,Won,33,Tamil Nadu
+431,183,Aranthangi,Pudukkottai,Ramachandran T,INC,Indian National Congress,167524,167524,75.2,30893,Won,33,Tamil Nadu
+432,134,Aravakurichi,Karur,Elango. R,DMK,Dravida Munetra Kazhagam,176245,176245,85.8,24816,Won,33,Tamil Nadu
+433,42,Arcot,Vellore,J.L.Eswarappan,DMK,Dravida Munetra Kazhagam,207538,207538,82.6,19958,Won,33,Tamil Nadu
+434,149,Ariyalur,Perambalur,Chinnappa K,DMK,Dravida Munetra Kazhagam,223839,223839,88,3234,Won,33,Tamil Nadu
+435,207,Aruppukkottai,Virudhunagar,K.K.S.S.R.Ramachandran,DMK,Dravida Munetra Kazhagam,169878,169878,79.2,39034,Won,33,Tamil Nadu
+436,129,Athoor,Dindigul,Periyasamy I,DMK,Dravida Munetra Kazhagam,228376,228376,81.7,135571,Won,33,Tamil Nadu
+437,82,Attur,Salem,Jayasankaran A.P.,AIADMK,All India Anna Dravida Munnetra Kazhagam,197909,197909,81.2,8257,Won,33,Tamil Nadu
+438,6,Avadi,Thiruvallur,Nasar S M,DMK,Dravida Munetra Kazhagam,298546,298546,72.9,55275,Won,33,Tamil Nadu
+439,112,Avanashi,Coimbatore,Dhanapal P,AIADMK,All India Anna Dravida Munnetra Kazhagam,210255,210255,79.1,50902,Won,33,Tamil Nadu
+440,52,Bargur,Krishnagiri,Mathiazhagan D,DMK,Dravida Munetra Kazhagam,196277,196277,82.4,12614,Won,33,Tamil Nadu
+441,104,Bhavani,Erode,Karuppanan.K.C,AIADMK,All India Anna Dravida Munnetra Kazhagam,199306,199306,85,22523,Won,33,Tamil Nadu
+442,107,Bhavanisagar,Erode,A.Bannari,AIADMK,All India Anna Dravida Munnetra Kazhagam,198562,198562,79.8,16008,Won,33,Tamil Nadu
+443,157,Bhuvanagiri,Cuddalore,Arunmozhithevan. A,AIADMK,All India Anna Dravida Munnetra Kazhagam,196107,196107,80.3,8259,Won,33,Tamil Nadu
+444,200,Bodinayakanur,Theni,O.Panneerselvam,AIADMK,All India Anna Dravida Munnetra Kazhagam,213392,213392,80.4,11021,Won,33,Tamil Nadu
+445,32,Chengalpattu,Kancheepuram,Varalakshmi.M,DMK,Dravida Munetra Kazhagam,271012,271012,68.1,26665,Won,33,Tamil Nadu
+446,62,Chengam,Tiruvannamalai,Giri.M.P,DMK,Dravida Munetra Kazhagam,222865,222865,84.7,11570,Won,33,Tamil Nadu
+447,19,Chepauk-Thiruvallikeni,Chennai,Udhayanidhi Stalin,DMK,Dravida Munetra Kazhagam,135344,135344,59.8,69355,Won,33,Tamil Nadu
+448,68,Cheyyar,Tiruvannamalai,Jothi. O,DMK,Dravida Munetra Kazhagam,212565,212565,85.3,12271,Won,33,Tamil Nadu
+449,34,Cheyyur,Kancheepuram,Babu M,VCK,Viduthalai Chiruthaigal Katchi,177979,177979,82.2,4042,Won,33,Tamil Nadu
+450,158,Chidambaram,Cuddalore,K.A. Pandian,AIADMK,All India Anna Dravida Munnetra Kazhagam,182150,182150,76,16937,Won,33,Tamil Nadu
+451,118,Coimbatore (North),Coimbatore,Amman K.Arjunan,AIADMK,All India Anna Dravida Munnetra Kazhagam,201098,201098,63.1,4001,Won,33,Tamil Nadu
+452,120,Coimbatore (South),Coimbatore,Vanathi Srinivasan,BJP,Bharatiya Janta Party,153864,153864,62.8,1728,Won,33,Tamil Nadu
+453,231,Colachal,Kanniyakumari,Prince J.G.,INC,Indian National Congress,182091,182091,71.5,24832,Won,33,Tamil Nadu
+454,110,Coonoor,The Nilgiris,Ramachandran K.,DMK,Dravida Munetra Kazhagam,134720,134720,72.2,4105,Won,33,Tamil Nadu
+455,155,Cuddalore,Cuddalore,G.Iyappan,DMK,Dravida Munetra Kazhagam,180765,180765,79.3,5151,Won,33,Tamil Nadu
+456,201,Cumbum,Theni,N.Ramakrishnan,DMK,Dravida Munetra Kazhagam,200616,200616,73.2,42413,Won,33,Tamil Nadu
+457,101,Dharapuram,Erode,Kayalvizhi N,DMK,Dravida Munetra Kazhagam,192088,192088,76.5,1393,Won,33,Tamil Nadu
+458,59,Dharmapuri,Dharmapuri,Venkateshwaran.S.P.,PMK,Pattali Makkal Katchi,215607,215607,83.9,26860,Won,33,Tamil Nadu
+459,132,Dindigul,Dindigul,Sreenivasan.C,AIADMK,All India Anna Dravida Munnetra Kazhagam,193311,193311,73.8,17747,Won,33,Tamil Nadu
+460,11,Dr.Radhakrishnan Nagar,Chennai,Ebenezer. J.J. (@)  JOHN EBENEZER.J,DMK,Dravida Munetra Kazhagam,185323,185323,74.6,42479,Won,33,Tamil Nadu
+461,86,Edappadi,Salem,Edappadi Palaniswami. K,AIADMK,All India Anna Dravida Munnetra Kazhagam,246192,246192,89.8,93802,Won,33,Tamil Nadu
+462,16,Egmore,Chennai,I.Paranthamen,DMK,Dravida Munetra Kazhagam,118095,118095,65.2,38768,Won,33,Tamil Nadu
+463,98,Erode (East),Erode,Thirumahan Everaae.,INC,Indian National Congress,150491,150491,68.8,8904,Won,33,Tamil Nadu
+464,99,Erode (West),Erode,Muthusamy S,DMK,Dravida Munetra Kazhagam,203611,203611,74.7,22089,Won,33,Tamil Nadu
+465,178,Gandarvakkottai,Pudukkottai,M.Chinnadurai,CPI(M),Communist Party Of India (Marxist),156230,156230,81.5,12721,Won,33,Tamil Nadu
+466,81,Gangavalli,Salem,Nallathambia.,AIADMK,All India Anna Dravida Munnetra Kazhagam,185252,185252,81.2,7361,Won,33,Tamil Nadu
+467,70,Gingee,Viluppuram,Masthan K S,DMK,Dravida Munetra Kazhagam,204601,204601,80.6,35803,Won,33,Tamil Nadu
+468,106,Gobichettipalayam,Erode,Sengottaiyan K.A,AIADMK,All India Anna Dravida Munnetra Kazhagam,212974,212974,86.1,28563,Won,33,Tamil Nadu
+469,109,Gudalur,The Nilgiris,Pon.Jayaseelan,AIADMK,All India Anna Dravida Munnetra Kazhagam,137240,137240,75.3,1945,Won,33,Tamil Nadu
+470,46,Gudiyattam,Vellore,Amulu.V,DMK,Dravida Munetra Kazhagam,209931,209931,77.1,6901,Won,33,Tamil Nadu
+471,1,Gummidipoondi,Thiruvallur,Govindarajan T.J,DMK,Dravida Munetra Kazhagam,220286,220286,82.4,50938,Won,33,Tamil Nadu
+472,18,Harbour,Chennai,Sekarbabu. P.K,DMK,Dravida Munetra Kazhagam,100738,100738,59.8,27274,Won,33,Tamil Nadu
+473,61,Harur,Dharmapuri,Sampathkumar.V,AIADMK,All India Anna Dravida Munnetra Kazhagam,196316,196316,83.1,30362,Won,33,Tamil Nadu
+474,55,Hosur,Krishnagiri,Prakaash Y,DMK,Dravida Munetra Kazhagam,246122,246122,75.2,12367,Won,33,Tamil Nadu
+475,150,Jayankondam,Perambalur,Kannan Ka So Ka,DMK,Dravida Munetra Kazhagam,214507,214507,83.2,5452,Won,33,Tamil Nadu
+476,49,Jolarpet,Vellore,Devaraji.K.,DMK,Dravida Munetra Kazhagam,195021,195021,84.2,1091,Won,33,Tamil Nadu
+477,221,Kadayanallur,Tirunelveli,C.Krishnamurali,AIADMK,All India Anna Dravida Munnetra Kazhagam,204318,204318,74.2,24349,Won,33,Tamil Nadu
+478,65,Kalasapakkam,Tiruvannamalai,Saravanan.P.S.T,DMK,Dravida Munetra Kazhagam,194841,194841,84.3,9222,Won,33,Tamil Nadu
+479,80,Kallakurichi,Viluppuram,Senthilkumar.M,AIADMK,All India Anna Dravida Munnetra Kazhagam,224601,224601,82.3,25891,Won,33,Tamil Nadu
+480,37,Kancheepuram,Kancheepuram,C.V.M.P. Ezhailzrasan,DMK,Dravida Munetra Kazhagam,226893,226893,77.3,11595,Won,33,Tamil Nadu
+481,102,Kangayam,Erode,Saminathan.M.P,DMK,Dravida Munetra Kazhagam,198791,198791,80.7,7331,Won,33,Tamil Nadu
+482,229,Kanniyakumari,Kanniyakumari,Thalavai Sundaram N.,AIADMK,All India Anna Dravida Munnetra Kazhagam,223778,223778,80,16213,Won,33,Tamil Nadu
+483,184,Karaikudi,Sivaganga,S.Mangudi,INC,Indian National Congress,211107,211107,70.1,21589,Won,33,Tamil Nadu
+484,135,Karur,Karur,Senthilbalaji V,DMK,Dravida Munetra Kazhagam,206349,206349,87.9,12448,Won,33,Tamil Nadu
+485,40,Katpadi,Vellore,Duraimurugan,DMK,Dravida Munetra Kazhagam,184357,184357,77.3,746,Won,33,Tamil Nadu
+486,159,Kattumannarkoil,Cuddalore,Sinthanai Selvan,VCK,Viduthalai Chiruthaigal Katchi,174913,174913,79,10565,Won,33,Tamil Nadu
+487,117,Kavundampalayam,Coimbatore,G.Arunkumar,AIADMK,All India Anna Dravida Munnetra Kazhagam,307026,307026,71.5,9776,Won,33,Tamil Nadu
+488,234,Killiyoor,Kanniyakumari,Rajesh Kumar  S,INC,Indian National Congress,169164,169164,70,55400,Won,33,Tamil Nadu
+489,64,Kilpennathur,Tiruvannamalai,K.Pitchandi,DMK,Dravida Munetra Kazhagam,202925,202925,83,26787,Won,33,Tamil Nadu
+490,45,Kilvaithinankuppam,Vellore,M.Jagan Moorthy,AIADMK,All India Anna Dravida Munnetra Kazhagam,172326,172326,79.5,10582,Won,33,Tamil Nadu
+491,164,Kilvelur,Nagapattinam,Nagaimaali V P,CPI(M),Communist Party Of India (Marxist),142098,142098,83.6,16985,Won,33,Tamil Nadu
+492,122,Kinathukadavu,Coimbatore,Damodaran.S,AIADMK,All India Anna Dravida Munnetra Kazhagam,230158,230158,76.5,1095,Won,33,Tamil Nadu
+493,13,Kolathur,Chennai,M.K. Stalin,DMK,Dravida Munetra Kazhagam,171859,171859,64.1,70384,Won,33,Tamil Nadu
+494,218,Kovilpatti,Thoothukkudi,Kadambur Raju,AIADMK,All India Anna Dravida Munnetra Kazhagam,179804,179804,70.4,12403,Won,33,Tamil Nadu
+495,53,Krishnagiri,Krishnagiri,Ashokkumar.K,AIADMK,All India Anna Dravida Munnetra Kazhagam,209811,209811,81.9,794,Won,33,Tamil Nadu
+496,136,Krishnarayapuram,Karur,Sivagama Sundari.K,DMK,Dravida Munetra Kazhagam,179725,179725,87.6,31625,Won,33,Tamil Nadu
+497,137,Kulithalai,Tiruchirappalli,R.Manickam,DMK,Dravida Munetra Kazhagam,196265,196265,90.4,23540,Won,33,Tamil Nadu
+498,97,Kumarapalayam,Namakkal,Thangamani.P,AIADMK,All India Anna Dravida Munnetra Kazhagam,200583,200583,82.4,31646,Won,33,Tamil Nadu
+499,171,Kumbakonam,Thanjavur,Anbalagan G.,DMK,Dravida Munetra Kazhagam,195916,195916,75.9,21383,Won,33,Tamil Nadu
+500,148,Kunnam,Perambalur,Sivasankar S.S.,DMK,Dravida Munetra Kazhagam,219126,219126,83.3,6329,Won,33,Tamil Nadu
+501,156,Kurinjipadi,Cuddalore,M.R.K.Panneerselvam,DMK,Dravida Munetra Kazhagam,197569,197569,85.3,17527,Won,33,Tamil Nadu
+502,143,Lalgudi,Tiruchirappalli,A.Soundarapandian,DMK,Dravida Munetra Kazhagam,173554,173554,82.4,16949,Won,33,Tamil Nadu
+503,126,Madathukulam,Coimbatore,C Mahendran,AIADMK,All India Anna Dravida Munnetra Kazhagam,180854,180854,76.3,6438,Won,33,Tamil Nadu
+504,9,Madavaram,Thiruvallur,Sudharsanam. S,DMK,Dravida Munetra Kazhagam,300534,300534,71.2,57071,Won,33,Tamil Nadu
+505,193,Madurai Central,Madurai,Palanivel Thiaga Rajan,DMK,Dravida Munetra Kazhagam,147989,147989,62.7,34176,Won,33,Tamil Nadu
+506,189,Madurai East,Madurai,Moorthy P,DMK,Dravida Munetra Kazhagam,235948,235948,76.8,49604,Won,33,Tamil Nadu
+507,191,Madurai North,Madurai,Thalapathi G,DMK,Dravida Munetra Kazhagam,154992,154992,65.6,22916,Won,33,Tamil Nadu
+508,192,Madurai South,Madurai,Boominathan.M,DMK,Dravida Munetra Kazhagam,146282,146282,64.9,6515,Won,33,Tamil Nadu
+509,194,Madurai West,Madurai,Raju. K,AIADMK,All India Anna Dravida Munnetra Kazhagam,199920,199920,68,9121,Won,33,Tamil Nadu
+510,35,Madurantakam,Kancheepuram,Maragatham. K,AIADMK,All India Anna Dravida Munnetra Kazhagam,184471,184471,84.5,3570,Won,33,Tamil Nadu
+511,7,Maduravoyal,Thiruvallur,Ganapathy.K,DMK,Dravida Munetra Kazhagam,271724,271724,65.8,31721,Won,33,Tamil Nadu
+512,71,Mailam,Viluppuram,Sivakumar C,PMK,Pattali Makkal Katchi,176105,176105,82.2,2230,Won,33,Tamil Nadu
+513,144,Manachanallur,Tiruchirappalli,S. Kathiravan,DMK,Dravida Munetra Kazhagam,195652,195652,84.4,59618,Won,33,Tamil Nadu
+514,187,Manamadurai,Sivaganga,Tamilarasi A.,DMK,Dravida Munetra Kazhagam,201728,201728,76.4,14091,Won,33,Tamil Nadu
+515,138,Manapparai,Tiruchirappalli,Abdul Samad P,DMK,Dravida Munetra Kazhagam,220739,220739,80.3,12243,Won,33,Tamil Nadu
+516,167,Mannargudi,Thiruvarur,Rajaa T R B,DMK,Dravida Munetra Kazhagam,192269,192269,77.1,37393,Won,33,Tamil Nadu
+517,161,Mayiladuthurai,Nagapattinam,Rajakumar.S,INC,Indian National Congress,173573,173573,73.7,2742,Won,33,Tamil Nadu
+518,188,Melur,Madurai,Periyapullan @ Selvam  P.,AIADMK,All India Anna Dravida Munnetra Kazhagam,181898,181898,75.8,35162,Won,33,Tamil Nadu
+519,111,Mettuppalayam,Coimbatore,Selvaraj A K,AIADMK,All India Anna Dravida Munnetra Kazhagam,222350,222350,79.1,2456,Won,33,Tamil Nadu
+520,85,Mettur,Salem,Sadhasivam.S,PMK,Pattali Makkal Katchi,216195,216195,78.7,656,Won,33,Tamil Nadu
+521,100,Modakkurichi,Erode,Saraswathi.C,BJP,Bharatiya Janta Party,179515,179515,78.1,281,Won,33,Tamil Nadu
+522,212,Mudhukulathur,Ramanathapuram,R.S.Rajakannappan,DMK,Dravida Munetra Kazhagam,220690,220690,72.7,20721,Won,33,Tamil Nadu
+523,145,Musiri,Tiruchirappalli,N. Thiyagarajan,DMK,Dravida Munetra Kazhagam,178614,178614,79.7,26836,Won,33,Tamil Nadu
+524,25,Mylapore,Chennai,Velu.Dha,DMK,Dravida Munetra Kazhagam,152143,152143,58.8,12633,Won,33,Tamil Nadu
+525,163,Nagapattinam,Nagapattinam,J. Mohamed Shanavas,VCK,Viduthalai Chiruthaigal Katchi,142665,142665,75.1,7238,Won,33,Tamil Nadu
+526,230,Nagercoil,Kanniyakumari,Gandhi M.R.,BJP,Bharatiya Janta Party,183255,183255,72.1,11669,Won,33,Tamil Nadu
+527,94,Namakkal,Namakkal,Ramalingam P,DMK,Dravida Munetra Kazhagam,205474,205474,82.5,27861,Won,33,Tamil Nadu
+528,227,Nanguneri,Tirunelveli,Ruby R Manoharan,INC,Indian National Congress,190985,190985,74.4,16486,Won,33,Tamil Nadu
+529,169,Nannilam,Thiruvarur,Kamaraj R,AIADMK,All India Anna Dravida Munnetra Kazhagam,220754,220754,84.9,4424,Won,33,Tamil Nadu
+530,131,Natham,Dindigul,Natham.R.Viswanathan,AIADMK,All India Anna Dravida Munnetra Kazhagam,223800,223800,83.1,11932,Won,33,Tamil Nadu
+531,153,Neyveli,Cuddalore,Saba.Rajendran,DMK,Dravida Munetra Kazhagam,162959,162959,77.5,977,Won,33,Tamil Nadu
+532,130,Nilakkottai,Dindigul,S.Thenmozhi,AIADMK,All India Anna Dravida Munnetra Kazhagam,183545,183545,79.9,27618,Won,33,Tamil Nadu
+533,128,Oddanchatram,Dindigul,Sakkarapani R,DMK,Dravida Munetra Kazhagam,200299,200299,86.4,28742,Won,33,Tamil Nadu
+534,84,Omalur,Salem,R.Mani,AIADMK,All India Anna Dravida Munnetra Kazhagam,247427,247427,87.5,55294,Won,33,Tamil Nadu
+535,175,Orathanadu,Thanjavur,Vaithilingam R.,AIADMK,All India Anna Dravida Munnetra Kazhagam,190973,190973,82.5,28835,Won,33,Tamil Nadu
+536,217,Ottapidaram,Thoothukkudi,Shunmugaiah C,DMK,Dravida Munetra Kazhagam,176272,176272,75.1,8510,Won,33,Tamil Nadu
+537,232,Padmanabhapuram,Kanniyakumari,Mano Thangaraj T.,DMK,Dravida Munetra Kazhagam,169120,169120,74.2,26885,Won,33,Tamil Nadu
+538,57,Palacode,Dharmapuri,Anbalagan.K.P.,AIADMK,All India Anna Dravida Munnetra Kazhagam,205244,205244,90.4,28100,Won,33,Tamil Nadu
+539,127,Palani,Dindigul,Senthil Kumar I.P,DMK,Dravida Munetra Kazhagam,204274,204274,75.8,30056,Won,33,Tamil Nadu
+540,226,Palayamkottai,Tirunelveli,Abdul Wahab .M,DMK,Dravida Munetra Kazhagam,159444,159444,61,52141,Won,33,Tamil Nadu
+541,115,Palladam,Coimbatore,Anandan M S M,AIADMK,All India Anna Dravida Munnetra Kazhagam,259709,259709,71.6,32691,Won,33,Tamil Nadu
+542,30,Pallavaram,Kancheepuram,Karunanithi,DMK,Dravida Munetra Kazhagam,260066,260066,63.9,36814,Won,33,Tamil Nadu
+543,154,Panruti,Cuddalore,Velmurugan.T,DMK,Dravida Munetra Kazhagam,195726,195726,82.4,4697,Won,33,Tamil Nadu
+544,172,Papanasam,Thanjavur,Dr.Jawahirullah M.H.,DMK,Dravida Munetra Kazhagam,195778,195778,79.3,16273,Won,33,Tamil Nadu
+545,60,Pappireddipatti,Dharmapuri,Govindasamy.A,AIADMK,All India Anna Dravida Munnetra Kazhagam,219656,219656,86.5,36943,Won,33,Tamil Nadu
+546,209,Paramakudi,Ramanathapuram,Murugesan S,DMK,Dravida Munetra Kazhagam,180900,180900,73.2,13285,Won,33,Tamil Nadu
+547,95,Paramathi-Velur,Namakkal,Sekar S,AIADMK,All India Anna Dravida Munnetra Kazhagam,182733,182733,85.5,7662,Won,33,Tamil Nadu
+548,176,Pattukkottai,Thanjavur,Annadurai K.,DMK,Dravida Munetra Kazhagam,176174,176174,75.4,25269,Won,33,Tamil Nadu
+549,58,Pennagaram,Dharmapuri,Mani. G.K,PMK,Pattali Makkal Katchi,208546,208546,87.9,21186,Won,33,Tamil Nadu
+550,147,Perambalur,Perambalur,Prabhaharan M.,DMK,Dravida Munetra Kazhagam,238142,238142,82.2,31034,Won,33,Tamil Nadu
+551,12,Perambur,Chennai,Shekar. R.D,DMK,Dravida Munetra Kazhagam,198872,198872,67.7,54976,Won,33,Tamil Nadu
+552,177,Peravurani,Thanjavur,Ashokkumar N.,DMK,Dravida Munetra Kazhagam,170080,170080,80.3,23503,Won,33,Tamil Nadu
+553,199,Periyakulam,Theni,K.S.Saravanakumaar,DMK,Dravida Munetra Kazhagam,199349,199349,74,21321,Won,33,Tamil Nadu
+554,103,Perundurai,Erode,Jayakumar S.,AIADMK,All India Anna Dravida Munnetra Kazhagam,188654,188654,86.6,14507,Won,33,Tamil Nadu
+555,123,Pollachi,Coimbatore,Pollachi V. Jayaraman,AIADMK,All India Anna Dravida Munnetra Kazhagam,175762,175762,80.6,1725,Won,33,Tamil Nadu
+556,66,Polur,Tiruvannamalai,Agri Krishnamurthy. S S,AIADMK,All India Anna Dravida Munnetra Kazhagam,200868,200868,84.8,9725,Won,33,Tamil Nadu
+557,2,Ponneri,Thiruvallur,Durai. Chandrasekar,INC,Indian National Congress,208800,208800,82.1,9689,Won,33,Tamil Nadu
+558,162,Poompuhar,Nagapattinam,Nivedha M. Murugan,DMK,Dravida Munetra Kazhagam,207105,207105,79.4,3299,Won,33,Tamil Nadu
+559,5,Poonamallee,Thiruvallur,Krishnaswamy A,DMK,Dravida Munetra Kazhagam,260869,260869,78.5,94110,Won,33,Tamil Nadu
+560,180,Pudukkottai,Pudukkottai,V . Muthuraja,DMK,Dravida Munetra Kazhagam,179288,179288,78.1,13001,Won,33,Tamil Nadu
+561,228,Radhapuram,Tirunelveli,M.Appavu,DMK,Dravida Munetra Kazhagam,186407,186407,72.7,5925,Won,33,Tamil Nadu
+562,202,Rajapalayam,Virudhunagar,Thangapandian S.,DMK,Dravida Munetra Kazhagam,176833,176833,76.9,3898,Won,33,Tamil Nadu
+563,211,Ramanathapuram,Ramanathapuram,Katharbatcha Muthuramalingam,DMK,Dravida Munetra Kazhagam,213345,213345,72.6,50479,Won,33,Tamil Nadu
+564,41,Ranipet,Vellore,R.Gandhi,DMK,Dravida Munetra Kazhagam,205830,205830,80.9,16498,Won,33,Tamil Nadu
+565,92,Rasipuram,Namakkal,Mathiventhan M,DMK,Dravida Munetra Kazhagam,194794,194794,84.8,1952,Won,33,Tamil Nadu
+566,78,Rishivandiyam,Viluppuram,Karthikeyan K,DMK,Dravida Munetra Kazhagam,212686,212686,83.6,41728,Won,33,Tamil Nadu
+567,17,Royapuram,Chennai,Murthy.R.Idream,DMK,Dravida Munetra Kazhagam,120290,120290,67.3,27779,Won,33,Tamil Nadu
+568,23,Saidapet,Chennai,Subramanian. Ma,DMK,Dravida Munetra Kazhagam,159169,159169,59,29295,Won,33,Tamil Nadu
+569,89,Salem (North),Salem,R. Rajendran,DMK,Dravida Munetra Kazhagam,200837,200837,75.5,7588,Won,33,Tamil Nadu
+570,90,Salem (South),Salem,E.Balasubramanian,AIADMK,All India Anna Dravida Munnetra Kazhagam,198122,198122,78,22609,Won,33,Tamil Nadu
+571,88,Salem (West),Salem,Arul. R,PMK,Pattali Makkal Katchi,214945,214945,75,21499,Won,33,Tamil Nadu
+572,219,Sankarankovil,Tirunelveli,Raja E,DMK,Dravida Munetra Kazhagam,181381,181381,74.6,5297,Won,33,Tamil Nadu
+573,79,Sankarapuram,Viluppuram,Udhayasuriyan T,DMK,Dravida Munetra Kazhagam,214849,214849,83.8,45963,Won,33,Tamil Nadu
+574,87,Sankari,Salem,Sundararajan S.,AIADMK,All India Anna Dravida Munnetra Kazhagam,230778,230778,87.6,20045,Won,33,Tamil Nadu
+575,204,Sattur,Virudhunagar,Raghuraman  A.R.R.,DMK,Dravida Munetra Kazhagam,190486,190486,80.2,11179,Won,33,Tamil Nadu
+576,93,Senthamangalam,Namakkal,Ponnusamy K,DMK,Dravida Munetra Kazhagam,197177,197177,83.8,10493,Won,33,Tamil Nadu
+577,190,Sholavandan,Madurai,Venkatesan A,DMK,Dravida Munetra Kazhagam,174400,174400,82,17045,Won,33,Tamil Nadu
+578,27,Shozhinganallur,Kancheepuram,S.Aravindramesh,DMK,Dravida Munetra Kazhagam,385325,385325,60.3,35405,Won,33,Tamil Nadu
+579,39,Sholinghur,Vellore,A.M.Munirathinam,INC,Indian National Congress,222870,222870,85,26698,Won,33,Tamil Nadu
+580,121,Singanallur,Coimbatore,Jayaram K.R,AIADMK,All India Anna Dravida Munnetra Kazhagam,200589,200589,65.1,10854,Won,33,Tamil Nadu
+581,160,Sirkazhi,Nagapattinam,Panneerselvam,DMK,Dravida Munetra Kazhagam,190348,190348,79.6,12148,Won,33,Tamil Nadu
+582,186,Sivaganga,Sivaganga,Pr. Senthilnathan,AIADMK,All India Anna Dravida Munnetra Kazhagam,200774,200774,70.1,11253,Won,33,Tamil Nadu
+583,205,Sivakasi,Virudhunagar,Ashokan.G,INC,Indian National Congress,183320,183320,74.4,17319,Won,33,Tamil Nadu
+584,29,Sriperumbudur,Kancheepuram,Selvaperunthagai,INC,Indian National Congress,262123,262123,80.1,10879,Won,33,Tamil Nadu
+585,139,Srirangam,Tiruchirappalli,Palaniyandi.M,DMK,Dravida Munetra Kazhagam,237823,237823,80.3,19915,Won,33,Tamil Nadu
+586,216,Srivaikuntam,Thoothukkudi,Amirtharaj .S,INC,Indian National Congress,163630,163630,76.3,17372,Won,33,Tamil Nadu
+587,203,Srivilliputhur,Virudhunagar,Manraj E.M.,AIADMK,All India Anna Dravida Munnetra Kazhagam,183373,183373,76.9,12738,Won,33,Tamil Nadu
+588,116,Sulur,Coimbatore,Kandasamy V.P.,AIADMK,All India Anna Dravida Munnetra Kazhagam,239043,239043,81,31932,Won,33,Tamil Nadu
+589,31,Tambaram,Kancheepuram,Raja.S.R,DMK,Dravida Munetra Kazhagam,246691,246691,64.8,36824,Won,33,Tamil Nadu
+590,222,Tenkasi,Tirunelveli,Palani Nadar.S,INC,Indian National Congress,212949,212949,77.3,370,Won,33,Tamil Nadu
+591,56,Thalli,Krishnagiri,Ramachandran.T,OTH,Communist Party Of India,192056,192056,79.3,56226,Won,33,Tamil Nadu
+592,174,Thanjavur,Thanjavur,Neelamegam T.K.G.,DMK,Dravida Munetra Kazhagam,192921,192921,69.6,47149,Won,33,Tamil Nadu
+593,15,Thiru-Vi-Ka-Nagar,Chennai,Sivakumar.P,DMK,Dravida Munetra Kazhagam,132650,132650,63.1,55013,Won,33,Tamil Nadu
+594,76,Tirukkoyilur,Viluppuram,K.Ponmudy,DMK,Dravida Munetra Kazhagam,194178,194178,78.6,59680,Won,33,Tamil Nadu
+595,196,Thirumangalam,Madurai,Udhayakumar R B,AIADMK,All India Anna Dravida Munnetra Kazhagam,219524,219524,81.8,14087,Won,33,Tamil Nadu
+596,181,Thirumayam,Pudukkottai,S.Regupathy,DMK,Dravida Munetra Kazhagam,173462,173462,80.5,1382,Won,33,Tamil Nadu
+597,195,Thiruparankundram,Madurai,Rajanchellappa V.V.,AIADMK,All India Anna Dravida Munnetra Kazhagam,233776,233776,76.7,29489,Won,33,Tamil Nadu
+598,33,Thiruporur,Kancheepuram,S.S.Balaji,VCK,Viduthalai Chiruthaigal Katchi,224747,224747,83,1947,Won,33,Tamil Nadu
+599,166,Thiruthuraipoondi,Thiruvarur,Marimuthu K,OTH,Communist Party Of India,184573,184573,80.2,30068,Won,33,Tamil Nadu
+600,173,Thiruvaiyaru,Thanjavur,Durai.Chandrasekaran,DMK,Dravida Munetra Kazhagam,210250,210250,81.7,53650,Won,33,Tamil Nadu
+601,4,Thiruvallur,Thiruvallur,Raajendran V.G.,DMK,Dravida Munetra Kazhagam,212371,212371,81.4,22701,Won,33,Tamil Nadu
+602,168,Thiruvarur,Thiruvarur,Kalaivanan  Poondi  K.,DMK,Dravida Munetra Kazhagam,206637,206637,76.7,51174,Won,33,Tamil Nadu
+603,142,Thiruverumbur,Tiruchirappalli,Anbil Mahesh Poyyamozhi,DMK,Dravida Munetra Kazhagam,195595,195595,68.9,49697,Won,33,Tamil Nadu
+604,170,Thiruvidaimarudur,Thanjavur,Chezhiaan  Govi.,DMK,Dravida Munetra Kazhagam,197206,197206,80.9,10680,Won,33,Tamil Nadu
+605,24,Thiyagarayanagar,Chennai,Karunanithi J,DMK,Dravida Munetra Kazhagam,136497,136497,59,137,Won,33,Tamil Nadu
+606,119,Thondamuthur,Coimbatore,S.P. Velumani,AIADMK,All India Anna Dravida Munnetra Kazhagam,228896,228896,74.3,41630,Won,33,Tamil Nadu
+607,214,Thoothukkudi,Thoothukkudi,P.Geetha Jeevan,DMK,Dravida Munetra Kazhagam,186838,186838,66.9,50310,Won,33,Tamil Nadu
+608,20,Thousand Lights,Chennai,Ezhilan N,DMK,Dravida Munetra Kazhagam,134555,134555,57.5,32462,Won,33,Tamil Nadu
+609,146,Thuraiyur,Tiruchirappalli,S.Stalinkumar,DMK,Dravida Munetra Kazhagam,174282,174282,79.8,22071,Won,33,Tamil Nadu
+610,72,Tindivanam,Viluppuram,Arjunan P,AIADMK,All India Anna Dravida Munnetra Kazhagam,181015,181015,81.9,9753,Won,33,Tamil Nadu
+611,215,Tiruchendur,Thoothukkudi,Anitha R. Radhakrishnan,DMK,Dravida Munetra Kazhagam,173485,173485,73.9,25263,Won,33,Tamil Nadu
+612,96,Tiruchengodu,Namakkal,Eswaran E R,DMK,Dravida Munetra Kazhagam,183151,183151,82.4,2862,Won,33,Tamil Nadu
+613,141,Tiruchirappalli (East),Tiruchirappalli,Inigo Irudayarajs.,DMK,Dravida Munetra Kazhagam,171321,171321,69.3,53797,Won,33,Tamil Nadu
+614,140,Tiruchirappalli (West),Tiruchirappalli,Nehru K.N.,DMK,Dravida Munetra Kazhagam,180982,180982,69.6,85109,Won,33,Tamil Nadu
+615,208,Tiruchuli,Virudhunagar,Thangam Thenarasu,DMK,Dravida Munetra Kazhagam,172071,172071,80.8,60992,Won,33,Tamil Nadu
+616,224,Tirunelveli,Tirunelveli,Nainar Nagenthran,BJP,Bharatiya Janta Party,195496,195496,70.2,23107,Won,33,Tamil Nadu
+617,50,Tirupattur,Vellore,A. Nallathambi,DMK,Dravida Munetra Kazhagam,184298,184298,80.4,28240,Won,33,Tamil Nadu
+618,185,Tiruppattur,Sivaganga,Kr.Periyakaruppan,DMK,Dravida Munetra Kazhagam,209913,209913,74.6,37374,Won,33,Tamil Nadu
+619,113,Tiruppur (North),Coimbatore,Vijeyakumar.K.N,AIADMK,All India Anna Dravida Munnetra Kazhagam,235930,235930,66.6,40102,Won,33,Tamil Nadu
+620,114,Tiruppur (South),Coimbatore,Selvaraj. K.,DMK,Dravida Munetra Kazhagam,173276,173276,66.2,4709,Won,33,Tamil Nadu
+621,3,Tiruttani,Thiruvallur,S.Chandran,DMK,Dravida Munetra Kazhagam,230959,230959,83.4,29253,Won,33,Tamil Nadu
+622,210,Tiruvadanai,Ramanathapuram,Karumanickam,INC,Indian National Congress,201047,201047,71.9,13852,Won,33,Tamil Nadu
+623,63,Tiruvannamalai,Tiruvannamalai,E V Velu,DMK,Dravida Munetra Kazhagam,206642,206642,75.3,94673,Won,33,Tamil Nadu
+624,10,Thiruvottiyur,Thiruvallur,K.P.Shankar,DMK,Dravida Munetra Kazhagam,198885,198885,69.1,37661,Won,33,Tamil Nadu
+625,151,Tittakudi,Cuddalore,Ganesan  C.V.,DMK,Dravida Munetra Kazhagam,167185,167185,78.1,21563,Won,33,Tamil Nadu
+626,108,Udhagamandalam,The Nilgiris,Ganesh R.,INC,Indian National Congress,139726,139726,69.4,5348,Won,33,Tamil Nadu
+627,125,Udumalaipettai,Coimbatore,Radhakrishnank.,AIADMK,All India Anna Dravida Munnetra Kazhagam,192880,192880,74.8,21895,Won,33,Tamil Nadu
+628,77,Ulundurpettai,Viluppuram,Manikannan A J,DMK,Dravida Munetra Kazhagam,242573,242573,85.8,5256,Won,33,Tamil Nadu
+629,197,Usilampatti,Madurai,Ayyappan P,AIADMK,All India Anna Dravida Munnetra Kazhagam,211481,211481,76.9,7477,Won,33,Tamil Nadu
+630,51,Uthangarai,Krishnagiri,T.M.Tamilselvam,AIADMK,All India Anna Dravida Munnetra Kazhagam,186864,186864,82.1,28387,Won,33,Tamil Nadu
+631,36,Uthiramerur,Kancheepuram,Sundar K,DMK,Dravida Munetra Kazhagam,209577,209577,84.8,1622,Won,33,Tamil Nadu
+632,124,Valparai,Coimbatore,Amulkandasami T K,AIADMK,All India Anna Dravida Munnetra Kazhagam,143757,143757,72.5,12223,Won,33,Tamil Nadu
+633,69,Vandavasi,Tiruvannamalai,Ambethkumar S,DMK,Dravida Munetra Kazhagam,184205,184205,80,35953,Won,33,Tamil Nadu
+634,47,Vaniyambadi,Vellore,G.Sendhil Kumar,AIADMK,All India Anna Dravida Munnetra Kazhagam,188505,188505,79.3,4904,Won,33,Tamil Nadu
+635,73,Vanur,Viluppuram,Chakrapani M,AIADMK,All India Anna Dravida Munnetra Kazhagam,180845,180845,82.1,21727,Won,33,Tamil Nadu
+636,220,Vasudevanallur,Tirunelveli,Sadhan Thirumalaikumar Doctor.T,DMK,Dravida Munetra Kazhagam,173710,173710,75.7,2367,Won,33,Tamil Nadu
+637,165,Vedaranyam,Nagapattinam,O.S.Manian,AIADMK,All India Anna Dravida Munnetra Kazhagam,157387,157387,85.4,12329,Won,33,Tamil Nadu
+638,133,Vedasandur,Dindigul,Gandhirajan S,DMK,Dravida Munetra Kazhagam,212277,212277,83.7,17553,Won,33,Tamil Nadu
+639,91,Veerapandi,Salem,Rajamuthu M.,AIADMK,All India Anna Dravida Munnetra Kazhagam,222293,222293,89.3,19895,Won,33,Tamil Nadu
+640,26,Velachery,Chennai,Jmh.Aassan Maulaana,INC,Indian National Congress,174972,174972,58.2,4352,Won,33,Tamil Nadu
+641,43,Vellore,Vellore,Karthikeyan .P,DMK,Dravida Munetra Kazhagam,178458,178458,72.7,9181,Won,33,Tamil Nadu
+642,54,Veppanahalli,Krishnagiri,K.P.Munusamy,AIADMK,All India Anna Dravida Munnetra Kazhagam,203479,203479,85.2,3054,Won,33,Tamil Nadu
+643,75,Vikravandi,Viluppuram,Pugazhenthi N,DMK,Dravida Munetra Kazhagam,192495,192495,86.2,9573,Won,33,Tamil Nadu
+644,213,Vilathikulam,Thoothukkudi,Markandayan V,DMK,Dravida Munetra Kazhagam,166133,166133,79.4,38549,Won,33,Tamil Nadu
+645,233,Vilavancode,Kanniyakumari,Vijayadharani S,INC,Indian National Congress,167054,167054,68.8,28669,Won,33,Tamil Nadu
+646,14,Villivakkam,Chennai,A . Vetriazhagan,DMK,Dravida Munetra Kazhagam,142648,142648,57.5,37237,Won,33,Tamil Nadu
+647,74,Villupuram,Viluppuram,Lakshmanan R,DMK,Dravida Munetra Kazhagam,203890,203890,81.6,14868,Won,33,Tamil Nadu
+648,179,Viralimalai,Pudukkottai,Vijaya Basker C,AIADMK,All India Anna Dravida Munnetra Kazhagam,193038,193038,90.4,23598,Won,33,Tamil Nadu
+649,206,Virudhunagar,Virudhunagar,Seenivasan A.R.R,DMK,Dravida Munetra Kazhagam,160147,160147,75.4,21339,Won,33,Tamil Nadu
+650,22,Virugampakkam,Chennai,Amv.Prabhakara Raja,DMK,Dravida Munetra Kazhagam,167524,167524,61.2,18367,Won,33,Tamil Nadu
+651,152,Vriddhachalam,Cuddalore,Radhakrishnan,INC,Indian National Congress,195973,195973,80.8,862,Won,33,Tamil Nadu
+652,83,Yercaud,Salem,G. Chitra,AIADMK,All India Anna Dravida Munnetra Kazhagam,236945,236945,86.7,25955,Won,33,Tamil Nadu

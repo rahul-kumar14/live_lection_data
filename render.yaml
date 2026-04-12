@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: election-dashboard-supabase
+    runtime: node
+    plan: free
+    rootDir: render-supabase-dashboard
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_API_KEY
+        sync: false

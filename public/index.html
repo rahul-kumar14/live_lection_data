@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Choose a state to view constituency-wise election results">
+    <title>Election Dashboard | Select State</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="header-content">
+            <div class="header-left">
+                <div class="logo-icon">🗳️</div>
+                <div class="header-text">
+                    <h1>Assembly Election Dashboard</h1>
+                    <p class="subtitle">Select a state to view constituency-wise results and map rendering</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section landing-section">
+        <div class="container">
+            <div class="landing-hero">
+                <span class="landing-kicker">State Selector</span>
+                <h2>Choose a state dashboard</h2>
+                <p>Explore real-time election insights across Assam, West Bengal and Tamil Nadu with one shared, scalable dashboard.</p>
+            </div>
+            <div class="state-grid" id="state-grid"></div>
+        </div>
+    </section>
+
+    <footer id="main-footer"> 
+        <div class="container footer-content">
+            <p>Multi-state election dashboard created by @rahul_anchor</p> 
+            <p class="footer-note">Designed with a shared data model, enabling seamless integration of multiple states and real-time insights.</p>
+        </div>
+    </footer>
+
+    <script src="/js/state-config.js"></script>
+    <script src="/js/home.js"></script>
+</body>
+</html>
