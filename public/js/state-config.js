@@ -5,7 +5,7 @@ window.STATE_CONFIG = {
         stateName: 'Assam',
         shortTitle: 'Assam',
         electionLabel: 'Assam Vidhan Sabha Election Results',
-        geojsonPath: '/data/states/assam/constituencies.geojson',
+        geojsonPath: '/data/assam-constituencies.geojson',
         available: true
     },
     'west-bengal': {
