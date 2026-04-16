@@ -14,6 +14,54 @@ const STATE_CONFIG = {
     puducherry: { stateCode: 34, stateName: 'Puducherry' }
 };
 
+const PARTY_NAME_MAP = {
+    18: {
+        BJP: 'Bharatiya Janata Party',
+        INC: 'Indian National Congress',
+        AIUDF: 'All India United Democratic Front',
+        AGP: 'Asom Gana Parishad',
+        UPPL: 'United Peoples Party Liberal',
+        BPF: 'Bodoland Peoples Front',
+        'CPI(M)': 'Communist Party of India (Marxist)',
+        OTH: 'Other'
+    },
+    19: {
+        TMC: 'All India Trinamool Congress',
+        BJP: 'Bharatiya Janata Party',
+        INC: 'Indian National Congress',
+        'CPI(M)': 'Communist Party of India (Marxist)',
+        OTH: 'Other'
+    },
+    33: {
+        DMK: 'Dravida Munnetra Kazhagam',
+        AIADMK: 'All India Anna Dravida Munnetra Kazhagam',
+        BJP: 'Bharatiya Janata Party',
+        INC: 'Indian National Congress',
+        PMK: 'Pattali Makkal Katchi',
+        VCK: 'Viduthalai Chiruthaigal Katchi',
+        'CPI(M)': 'Communist Party of India (Marxist)',
+        OTH: 'Other'
+    },
+    32: {
+        'CPI(M)': 'Communist Party of India (Marxist)',
+        INC: 'Indian National Congress',
+        IUML: 'Indian Union Muslim League',
+        'KC(M)': 'Kerala Congress (M)',
+        BJP: 'Bharatiya Janata Party',
+        OTH: 'Other'
+    },
+    34: {
+        AINRC: 'All India N.R. Congress',
+        BJP: 'Bharatiya Janata Party',
+        INC: 'Indian National Congress',
+        DMK: 'Dravida Munnetra Kazhagam',
+        AIADMK: 'All India Anna Dravida Munnetra Kazhagam',
+        OTH: 'Other'
+    }
+};
+
+const COUNTABLE_STATUSES = new Set(['Won', 'Lead']);
+
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
@@ -39,10 +87,53 @@ function normalizeResultRow(row) {
 function normalizeStatsRow(row) {
     return {
         ...row,
-        seats_won: Number(row.seats_won),
+        won_count: Number(row.won_count),
+        lead_count: Number(row.lead_count),
+        total_count: Number(row.total_count),
         total_votes: Number(row.total_votes),
         vote_share_pct: Number(row.vote_share_pct)
     };
+}
+
+function buildStatsFromRows(rows, stateCode) {
+    const partyMap = new Map();
+    const partyNames = PARTY_NAME_MAP[stateCode] || {};
+
+    rows
+        .filter(row => COUNTABLE_STATUSES.has(row.status))
+        .forEach(row => {
+            const key = row.party_code;
+            if (!partyMap.has(key)) {
+                partyMap.set(key, {
+                    party_code: row.party_code,
+                    party_name: partyNames[row.party_code] || row.party_name,
+                    won_count: 0,
+                    lead_count: 0,
+                    total_count: 0,
+                    total_votes: 0,
+                    total_poll: 0
+                });
+            }
+
+            const entry = partyMap.get(key);
+            if (row.status === 'Won') {
+                entry.won_count += 1;
+            } else if (row.status === 'Lead') {
+                entry.lead_count += 1;
+            }
+            entry.total_count += 1;
+            entry.total_votes += row.votes_received;
+            entry.total_poll += row.total_votes;
+        });
+
+    return Array.from(partyMap.values())
+        .map(entry => normalizeStatsRow({
+            ...entry,
+            vote_share_pct: entry.total_poll === 0
+                ? 0
+                : ((entry.total_votes / entry.total_poll) * 100).toFixed(2)
+        }))
+        .sort((a, b) => b.total_count - a.total_count || a.party_code.localeCompare(b.party_code));
 }
 
 function requireSupabaseConfig() {
@@ -117,38 +208,12 @@ app.get('/api/stats', async (req, res) => {
                 total_votes: Number(row.total_votes)
             }));
 
-        const winners = rows.filter(row => row.status === 'Won');
-        const partyMap = new Map();
-
-        winners.forEach(row => {
-            const key = `${row.party_code}||${row.party_name}`;
-            if (!partyMap.has(key)) {
-                partyMap.set(key, {
-                    party_code: row.party_code,
-                    party_name: row.party_name,
-                    seats_won: 0,
-                    total_votes: 0,
-                    total_poll: 0
-                });
-            }
-
-            const entry = partyMap.get(key);
-            entry.seats_won += 1;
-            entry.total_votes += row.votes_received;
-            entry.total_poll += row.total_votes;
-        });
-
-        const parties = Array.from(partyMap.values())
-            .map(entry => normalizeStatsRow({
-                ...entry,
-                vote_share_pct: entry.total_poll === 0
-                    ? 0
-                    : ((entry.total_votes / entry.total_poll) * 100).toFixed(2)
-            }))
-            .sort((a, b) => b.seats_won - a.seats_won || a.party_code.localeCompare(b.party_code));
+        const parties = buildStatsFromRows(rows, stateCode);
+        const countedSeats = parties.reduce((sum, party) => sum + party.total_count, 0);
 
         const total = {
             total_seats: rows.length,
+            counted_seats: countedSeats,
             total_votes_all: rows.reduce((sum, row) => sum + row.votes_received, 0),
             state_name: rows[0]?.state_name || null
         };
