@@ -1,5 +1,5 @@
 /* ===================================
-   ASSAM ELECTION DASHBOARD — Main App
+   ASSAM ELECTION DASHBOARD Ã¢â‚¬â€ Main App
    Constituency-wise Map Version
    =================================== */
 
@@ -15,7 +15,7 @@ const MAP_BASE_WIDTH = 980;
 const MAP_BASE_HEIGHT = 620;
 const AUTO_REFRESH_MS = 20000;
 
-// Constituency Name → Election Result mapping
+// Constituency Name Ã¢â€ â€™ Election Result mapping
 const constituencyMap = {};
 const constituencyNumberMap = {};
 const CONSTITUENCY_ALIASES = {
@@ -26,7 +26,7 @@ const CONSTITUENCY_ALIASES = {
 };
 const currentState = getCurrentStateConfig();
 
-// ─── Init ───
+// Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Init Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 document.addEventListener('DOMContentLoaded', async () => {
     if (!currentState || !currentState.available) {
         window.location.href = '/';
@@ -53,13 +53,13 @@ function getCurrentStateConfig() {
 function initializePageMeta() {
     document.title = `${currentState.electionLabel} | Dashboard`;
     document.getElementById('page-title').textContent = currentState.electionLabel;
-    document.getElementById('page-subtitle').textContent = `General Election to Assembly Constituencies — ${currentState.stateName}`;
+    document.getElementById('page-subtitle').textContent = `General Election to Assembly Constituencies Ã¢â‚¬â€ ${currentState.stateName}`;
     document.getElementById('map-panel-title').textContent = `${currentState.shortTitle} Constituency Map`;
     document.getElementById('results-title').textContent = `${currentState.shortTitle} Constituency Wise Results`;
     document.getElementById('footer-title').textContent = `${currentState.electionLabel} Dashboard`;
 }
 
-// ─── API Calls ───
+// Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ API Calls Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 async function loadDashboard(options = {}) {
     const {
         keepSelection = true,
@@ -135,7 +135,7 @@ async function fetchGeoJSON() {
     geoData = mergeConstituencyFeatures(rawGeoData);
 }
 
-// Build constituency name → result lookup
+// Build constituency name Ã¢â€ â€™ result lookup
 function buildConstituencyMap() {
     Object.keys(constituencyMap).forEach(key => delete constituencyMap[key]);
     Object.keys(constituencyNumberMap).forEach(key => delete constituencyNumberMap[key]);
@@ -321,7 +321,7 @@ function logMapDiagnostics() {
     }
 }
 
-// ─── Party Summary Cards ───
+// Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Party Summary Cards Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 function renderPartySummary() {
     const container = document.getElementById('party-cards');
     const seatsBar = document.getElementById('seats-bar');
@@ -331,6 +331,7 @@ function renderPartySummary() {
     seatsBar.innerHTML = '';
 
     const totalSeats = statsData.total.total_seats;
+    const countedSeats = statsData.total.counted_seats || 0;
 
     statsData.parties.forEach((party, i) => {
         const color = getPartyColor(party.party_code);
@@ -346,7 +347,8 @@ function renderPartySummary() {
             <div class="party-dot" style="background: ${color}"></div>
             <div class="party-info">
                 <span class="party-code" style="color: ${color}">${party.party_code}</span>
-                <span class="party-seats">${party.seats_won}</span>
+                <span class="party-seats">${party.total_count}</span>
+                <span class="party-meta">Won ${party.won_count} | Lead ${party.lead_count}</span>
             </div>
         `;
         container.appendChild(card);
@@ -354,29 +356,33 @@ function renderPartySummary() {
         const segment = document.createElement('div');
         segment.className = 'bar-segment';
         segment.style.background = color;
-        segment.style.width = `${(party.seats_won / totalSeats) * 100}%`;
+        segment.style.width = `${(party.total_count / totalSeats) * 100}%`;
         seatsBar.appendChild(segment);
     });
 
-    document.getElementById('total-seats-label').textContent = `Total: ${totalSeats} Seats`;
+    document.getElementById('total-seats-label').textContent = `Counted: ${countedSeats} / ${totalSeats}`;
     const totalSeatsMax = document.getElementById('total-seats-max');
     if (totalSeatsMax) {
         totalSeatsMax.textContent = totalSeats;
     }
 }
 
-// ─── Party Table ───
+// Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Party Table Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 function renderPartyTable() {
     const tbody = document.getElementById('party-table-body');
     if (!statsData) return;
 
     tbody.innerHTML = '';
 
+    let totalWon = 0;
+    let totalLeading = 0;
     let totalSeats = 0;
 
     statsData.parties.forEach(party => {
         const color = getPartyColor(party.party_code);
-        totalSeats += party.seats_won;
+        totalWon += party.won_count;
+        totalLeading += party.lead_count;
+        totalSeats += party.total_count;
 
         const tr = document.createElement('tr');
         tr.innerHTML = `
@@ -389,9 +395,9 @@ function renderPartyTable() {
                     </div>
                 </div>
             </td>
-            <td style="color: ${color}; font-size: 18px;">${party.seats_won}</td>
-            <td>${party.vote_share_pct}%</td>
-            <td>${party.seats_won}</td>
+            <td style="color: ${color}; font-size: 18px;">${party.won_count}</td>
+            <td style="color: ${color}; font-size: 18px;">${party.lead_count}</td>
+            <td>${party.total_count}</td>
         `;
         tbody.appendChild(tr);
     });
@@ -399,14 +405,21 @@ function renderPartyTable() {
     const totalTr = document.createElement('tr');
     totalTr.innerHTML = `
         <td><div class="party-name-cell"><strong>Total</strong></div></td>
-        <td><strong>${totalSeats}</strong></td>
-        <td>—</td>
+        <td><strong>${totalWon}</strong></td>
+        <td><strong>${totalLeading}</strong></td>
         <td><strong>${totalSeats}</strong></td>
     `;
     tbody.appendChild(totalTr);
 }
 
-// ─── Interactive Map (Constituency-wise) ───
+function getStatusClass(status) {
+    const normalized = String(status || '').toLowerCase();
+    if (normalized === 'won') return 'won';
+    if (normalized === 'lead') return 'lead';
+    return 'neutral';
+}
+
+// Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Interactive Map (Constituency-wise) Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 function renderMap() {
     const container = document.getElementById('map-svg-container');
     const tooltip = document.getElementById('map-tooltip');
@@ -466,7 +479,7 @@ function renderMap() {
                         <span class="value">${d.properties.DIST_NAME}</span>
                     </div>
                     <div class="tooltip-row">
-                        <span class="label">Winner</span>
+                        <span class="label">Candidate</span>
                         <span class="value">${result.candidate_name}</span>
                     </div>
                     <div class="tooltip-row">
@@ -485,7 +498,7 @@ function renderMap() {
                         <span class="label">Margin</span>
                         <span class="value">${Number(result.margin).toLocaleString('en-IN')}</span>
                     </div>
-                    <span class="tooltip-status won">✓ ${result.status}</span>
+                    <span class="tooltip-status ${getStatusClass(result.status)}">${result.status}</span>
                 `;
             } else {
                 tooltip.innerHTML = `
@@ -631,16 +644,16 @@ function centerMapViewport() {
     mapShell.scrollTop = Math.max(0, (mapStage.scrollHeight - mapShell.clientHeight) / 2);
 }
 
-// ─── Charts ───
+// Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Charts Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 function renderCharts() {
     if (!statsData) return;
 
     const seatsData = statsData.parties.map(p => ({
         label: p.party_code,
-        value: p.seats_won,
+        value: p.total_count,
         color: getPartyColor(p.party_code)
     }));
-    renderDonutChart('seats-donut', seatsData, statsData.total.total_seats, 'seats');
+    renderDonutChart('seats-donut', seatsData, statsData.total.counted_seats || 0, 'seats');
 
     const voteData = statsData.parties.map(p => ({
         label: p.party_code,
@@ -650,7 +663,7 @@ function renderCharts() {
     renderDonutChart('votes-donut', voteData, '100%', 'percentage');
 }
 
-// ─── Result Cards ───
+// Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Result Cards Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 function renderResultCards() {
     const grid = document.getElementById('results-grid');
     grid.innerHTML = '';
@@ -670,10 +683,10 @@ function renderResultCards() {
             </style>
             <div class="card-header">
                 <div>
-                    <div class="card-constituency">#${r.constituency_no} — ${r.district_name}</div>
+                    <div class="card-constituency">#${r.constituency_no} - ${r.district_name}</div>
                     <div class="card-constituency-name">${r.constituency_name}</div>
                 </div>
-                <span class="card-status">✓ ${r.status}</span>
+                <span class="card-status ${getStatusClass(r.status)}">${r.status}</span>
             </div>
             <div class="card-candidate">
                 <div class="candidate-icon" style="background: ${color}">${initials}</div>
@@ -720,7 +733,7 @@ function highlightCard(constituencyName) {
     }
 }
 
-// ─── Dropdown ───
+// Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Dropdown Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 function populateDropdown(selectedKey = '') {
     const select = document.getElementById('constituency-select');
     select.innerHTML = '<option value="">Select Constituency...</option>';
@@ -760,7 +773,7 @@ function populateDropdown(selectedKey = '') {
     }
 }
 
-// ─── Utilities ───
+// Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Utilities Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 function setRefreshState(isLoading, statusText) {
     const refreshButton = document.getElementById('refresh-data-btn');
     const refreshStatus = document.getElementById('refresh-status');
