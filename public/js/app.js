@@ -267,37 +267,61 @@ function mergeConstituencyFeatures(collection) {
 
     const grouped = new Map();
 
+    const toPolygonCollection = (geometry) => {
+        if (!geometry || !Array.isArray(geometry.coordinates)) {
+            return [];
+        }
+
+        if (geometry.type === 'Polygon') {
+            return [geometry.coordinates];
+        }
+
+        if (geometry.type === 'MultiPolygon') {
+            return geometry.coordinates;
+        }
+
+        return [];
+    };
+
     collection.features.forEach(feature => {
         const acNo = feature?.properties?.AC_NO ?? '';
         const acName = feature?.properties?.AC_NAME ?? '';
         const groupKey = `${acNo}|${normalizeConstituencyKey(acName)}`;
-        const geometrySize = JSON.stringify(feature?.geometry?.coordinates || []).length;
+        const polygons = toPolygonCollection(feature?.geometry);
 
         if (!grouped.has(groupKey)) {
             grouped.set(groupKey, {
                 feature: {
                     ...feature,
-                    properties: { ...feature.properties }
-                },
-                geometrySize
+                    properties: { ...feature.properties },
+                    geometry: {
+                        type: 'MultiPolygon',
+                        coordinates: polygons
+                    }
+                }
             });
             return;
         }
 
         const current = grouped.get(groupKey);
-        if (geometrySize > current.geometrySize) {
-            grouped.set(groupKey, {
-                feature: {
-                    ...feature,
-                    properties: { ...feature.properties }
-                },
-                geometrySize
-            });
-        }
+        current.feature.geometry.coordinates.push(...polygons);
     });
 
     const features = Array.from(grouped.values())
         .map(entry => entry.feature)
+        .map(feature => {
+            if (feature.geometry.coordinates.length === 1) {
+                return {
+                    ...feature,
+                    geometry: {
+                        type: 'Polygon',
+                        coordinates: feature.geometry.coordinates[0]
+                    }
+                };
+            }
+
+            return feature;
+        })
         .sort((a, b) => (a.properties.AC_NO || 0) - (b.properties.AC_NO || 0));
 
     return {
