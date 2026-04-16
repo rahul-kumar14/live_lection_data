@@ -366,6 +366,14 @@ body {
     margin-top: 2px;
 }
 
+.party-card .party-meta {
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    letter-spacing: 0.3px;
+}
+
 /* Seats Progress Bar */
 .seats-bar-container {
     padding: 0 4px;
@@ -402,9 +410,13 @@ body {
 /* ---------- DASHBOARD GRID ---------- */
 .dashboard-grid {
     display: grid;
-    grid-template-columns: 300px minmax(0, 1fr);
+    grid-template-columns: minmax(420px, 480px) minmax(0, 1fr);
     gap: 24px;
     align-items: start;
+}
+
+.party-table-panel {
+    min-width: 0;
 }
 
 /* ---------- PANEL ---------- */
@@ -440,25 +452,27 @@ body {
 #party-table {
     width: 100%;
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 #party-table th {
     text-align: left;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
     color: var(--text-muted);
     text-transform: uppercase;
     letter-spacing: 0.8px;
-    padding: 8px 0;
+    padding: 10px 8px;
     border-bottom: 1px solid var(--border);
 }
 
 #party-table th:not(:first-child) {
     text-align: center;
+    width: 82px;
 }
 
 #party-table td {
-    padding: 12px 0;
+    padding: 12px 8px;
     font-size: 14px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
@@ -466,6 +480,16 @@ body {
 #party-table td:not(:first-child) {
     text-align: center;
     font-weight: 600;
+}
+
+#party-table th:first-child,
+#party-table td:first-child {
+    padding-left: 0;
+}
+
+#party-table th:last-child,
+#party-table td:last-child {
+    padding-right: 0;
 }
 
 #party-table tr:last-child td {
@@ -692,6 +716,16 @@ body {
     color: #2ECC71;
 }
 
+.tooltip-status.lead {
+    background: rgba(251, 191, 36, 0.18);
+    color: #FBBF24;
+}
+
+.tooltip-status.neutral {
+    background: rgba(148, 163, 184, 0.16);
+    color: #CBD5E1;
+}
+
 /* Map Legend */
 .map-legend {
     display: flex;
@@ -891,6 +925,16 @@ body {
     letter-spacing: 0.5px;
     background: rgba(46, 204, 113, 0.15);
     color: #2ECC71;
+}
+
+.card-status.lead {
+    background: rgba(251, 191, 36, 0.18);
+    color: #FBBF24;
+}
+
+.card-status.neutral {
+    background: rgba(148, 163, 184, 0.16);
+    color: #CBD5E1;
 }
 
 .card-candidate {
