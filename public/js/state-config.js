@@ -6,7 +6,9 @@ window.STATE_CONFIG = {
         shortTitle: 'Assam',
         electionLabel: 'Assam Vidhan Sabha Election Results',
         geojsonPath: '/data/assam-constituencies.geojson',
-        available: true
+        available: true,
+        defaultMapZoom: 1,
+        maxMapZoom: 3
     },
     'west-bengal': {
         slug: 'west-bengal',
@@ -15,7 +17,9 @@ window.STATE_CONFIG = {
         shortTitle: 'West Bengal',
         electionLabel: 'West Bengal Vidhan Sabha Election Results',
         geojsonPath: '/data/states/west-bengal/constituencies.geojson',
-        available: true
+        available: true,
+        defaultMapZoom: 1,
+        maxMapZoom: 3
     },
     'tamil-nadu': {
         slug: 'tamil-nadu',
@@ -24,7 +28,9 @@ window.STATE_CONFIG = {
         shortTitle: 'Tamil Nadu',
         electionLabel: 'Tamil Nadu Vidhan Sabha Election Results',
         geojsonPath: '/data/states/tamil-nadu/constituencies.geojson',
-        available: true
+        available: true,
+        defaultMapZoom: 1,
+        maxMapZoom: 3
     },
     kerala: {
         slug: 'kerala',
@@ -33,7 +39,9 @@ window.STATE_CONFIG = {
         shortTitle: 'Kerala',
         electionLabel: 'Kerala Vidhan Sabha Election Results',
         geojsonPath: '/data/states/kerala/constituencies.geojson',
-        available: false
+        available: true,
+        defaultMapZoom: 1,
+        maxMapZoom: 3
     },
     puducherry: {
         slug: 'puducherry',
@@ -42,7 +50,9 @@ window.STATE_CONFIG = {
         shortTitle: 'Puducherry',
         electionLabel: 'Puducherry Vidhan Sabha Election Results',
         geojsonPath: '/data/states/puducherry/constituencies.geojson',
-        available: false
+        available: true,
+        defaultMapZoom: 8,
+        maxMapZoom: 12
     }
 };
 
