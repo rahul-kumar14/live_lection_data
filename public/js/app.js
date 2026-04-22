@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         return;
     }
 
+    mapZoom = getDefaultMapZoom();
     initializePageMeta();
     showLoading();
     initializeControls();
@@ -112,9 +113,9 @@ function initializeControls() {
         });
     });
 
-    document.getElementById('map-zoom-in')?.addEventListener('click', () => setMapZoom(mapZoom + 0.2));
-    document.getElementById('map-zoom-out')?.addEventListener('click', () => setMapZoom(mapZoom - 0.2));
-    document.getElementById('map-zoom-reset')?.addEventListener('click', () => setMapZoom(1, true));
+    document.getElementById('map-zoom-in')?.addEventListener('click', () => setMapZoom(mapZoom + getMapZoomStep()));
+    document.getElementById('map-zoom-out')?.addEventListener('click', () => setMapZoom(mapZoom - getMapZoomStep()));
+    document.getElementById('map-zoom-reset')?.addEventListener('click', () => setMapZoom(getDefaultMapZoom(), true));
 
     dashboardInitialized = true;
 }
@@ -582,7 +583,7 @@ function renderMap() {
             }
         });
 
-    applyMapZoom(false);
+    applyMapZoom(true);
     renderMapLegend();
 }
 
@@ -611,8 +612,20 @@ function renderMapLegend() {
     });
 }
 
+function getDefaultMapZoom() {
+    return Number(currentState?.defaultMapZoom || 1);
+}
+
+function getMaxMapZoom() {
+    return Number(currentState?.maxMapZoom || 3);
+}
+
+function getMapZoomStep() {
+    return getDefaultMapZoom() >= 4 ? 0.5 : 0.2;
+}
+
 function setMapZoom(nextZoom, forceCenter = false) {
-    mapZoom = Math.min(3, Math.max(1, Number(nextZoom.toFixed(2))));
+    mapZoom = Math.min(getMaxMapZoom(), Math.max(1, Number(nextZoom.toFixed(2))));
     applyMapZoom(forceCenter);
 }
 
